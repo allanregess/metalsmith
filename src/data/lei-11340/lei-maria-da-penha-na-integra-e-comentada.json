@@ -1,0 +1,60 @@
+{
+	"_template": "pages/lei-completa.njk",
+	"pageTitle": "Lei Maria da Penha na Íntegra e Comentada - Instituto Maria da Penha",
+	"hero": {
+		"title":"a lei na íntegra e comentada",
+		"buttonLabel":"baixar a lei maria da penha",
+		"imagePath":"/assets/hero/lei-integra-hero.jpg",
+		"pdf": "/assets/downloads/lei-11340-2006-lei-maria-da-penha.pdf",
+		"content":"<p>Antes de a <strong>Lei Maria da Penha</strong> entrar em vigor, a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Na prática, isso significava que a violência de gênero era banalizada, e as penas geralmente se reduziam ao pagamento de cestas básicas ou trabalhos comunitários. Em outras palavras, não havia dispositivo legal para punir, com mais rigor, o homem autor de violência.<br/><br/>Para se ter uma ideia do que acontecia, após denunciar o agressor, a vítima ainda tinha que levar a intimação para que ele comparecesse perante o delegado. Isso mostra o descaso e a falta de sensibilidade com que esse problema era tratado.<br/><br/>Por isso, para o Consórcio de ONGs que participou da criação da Lei Maria da Penha, era fundamental desvincular a nova lei da Lei n. 9.099/1995. Havia a necessidade de mudar esse cenário e, após pouco mais de quatro anos de muito debate com o Executivo, o Legislativo e a sociedade civil, a Lei Maria da Penha foi sancionada em <strong>7 de agosto de 2006</strong>.</p>"
+	},
+	"references": {
+		"title":"Referências",
+		"text":"BRASIL. <b>Lei n. 11.340, de 7 de agosto de 2006</b>. Disponível em: http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2006/Lei/L11340.htm. Acesso em: 27 jul. 2018.<br/><br/>BRASIL. <b>Lei n. 13.641, de 3 de abril de 2018</b>. Disponível em: http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13641.htm. Acesso em: 10 nov. 2018.<br/><br/>CALAZANS, Myllena; CORTES, Iáris. O processo de criação, aprovação e implementação da Lei Maria da Penha. In: CAMPOS, C. H. (Org.). <b>Lei Maria da Penha comentada em uma perspectiva jurídico-feminista</b>. Rio de Janeiro: Lumen Juris, 2011.<br/><br/>COMISSÃO INTERAMERICANA DE DIREITOS HUMANOS/ORGANIZAÇÃO DOS ESTADOS AMERICANOS. <b>Convenção Americana Sobre Direitos Humanos</b>. San José, Costa Rica, 22 nov. 1969. Disponível em: https://www.cidh.oas.org/basicos/portugues/c.convencao_americana.htm. Acesso em: 10 nov. 2018.<br/><br/>COMISSÃO INTERAMERICANA DE DIREITOS HUMANOS/ORGANIZAÇÃO DOS ESTADOS AMERICANOS. <b>Relatório n. 54/01</b>, Caso 12.051, Maria da Penha Maia Fernandes, 4 abr. 2001, Brasil. Disponível em: http://www.sbdp.org.br/arquivos/material 299_Relat%20n.pdf. Acesso em: 27 set. 2018.<br/><br/>CONVENÇÃO SOBRE A ELIMINAÇÃO DE TODAS AS FORMAS DE DISCRIMINAÇÃO CONTRA AS MULHERES (CEDAW). 1979. Disponível em: http://www.compromissoeatitude.org.br/wp-content/uploads/2012/11/SPM2006_CEDAW_portugues.pdf. Acesso em: 10 nov. 2018.<br/><br/>DECLARAÇÃO E PLATAFORMA DE AÇÃO DA IV CONFERÊNCIA MUNDIAL SOBRE A MULHER. Pequim, 1995. Disponível em: http://www.onumulheres.org.br/wp-content/uploads/2014/02/declaracao_pequim.pdf. Acesso em: 10 nov. 2018. <br /><br /> SECRETARIA DE POLÍTICAS PARA MULHERES. Ministério dos Direitos Humanos. Disponível em: http://www.spm.gov.br/. Acesso em: 14 ago. 2018."
+	},
+	"topics":[
+		{
+			"icon": "/assets/law/know_icon.png",
+			"title": "você sabia?",
+			"description": "A Lei Maria da Penha é considerada pela Organização das Nações Unidas (ONU) uma das três mais avançadas do mundo. Uma das principais inovações trazidas pela lei são as medidas protetivas de urgência para as vítimas. Além disso, ela prevê a criação de equipamentos indispensáveis à sua efetividade: <strong>Delegacias Especializadas de Atendimento à Mulher, Casas-abrigo, Centros de Referência da Mulher e Juizados de Violência Doméstica e Familiar contra a Mulher, entre outros.</strong>"
+		},
+		{
+			"icon": "/assets/law/inovation_icon.png",
+			"title": "inovações da lei n. 11.340/2006",
+			"description": "Com a LMP, a violência doméstica e familiar contra a mulher passa a ser crime, deixando de ser tratada como de menor potencial ofensivo. <strong>A lei também estabelece a definição do que é a violência doméstica e familiar, bem como caracteriza as suas formas: física, psicológica, sexual, patrimonial e moral.</strong> Além disso, a Lei n. 11.340/2006 cria mecanismos de proteção às vítimas, assumindo que a violência de gênero contra a mulher é uma responsabilidade do Estado brasileiro, e não apenas uma questão familiar."
+		},
+		{
+			"icon": "/assets/law/genero-icon.png",
+			"title": "gênero e direitos humanos",
+			"description": "Segundo o art. 6º da Lei Maria da Penha, “a violência doméstica e familiar contra a mulher constitui uma das formas de violação dos direitos humanos”, dispositivo fundamental para desvincular esse tipo de crime da Lei n. 9.099/1995, a qual o considerava como de menor potencial ofensivo. Ao assumir essa perspectiva, a lei atende a inúmeros tratados assinados pelo Estado brasileiro, tais como a Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher (CEDAW); a Declaração e Plataforma de Ação da IV Conferência Mundial sobre a Mulher; a Convenção Interamericana para Prevenir, Punir e Erradicar a Violência contra a Mulher (Convenção de Belém do Pará); e a Convenção Americana sobre os Direitos Humanos (Pacto de San José da Costa Rica), entre outros."
+		},
+		{
+			"icon": "/assets/law/scale-icon.png",
+			"title": "para além da dimensão punitiva",
+			"description": "É importante que se diga que a Lei Maria da Penha não pode ser tratada apenas como uma via jurídica para se punir os agressores. Isso porque ela também traz em seu texto o conceito de todos os tipos de violência doméstica e familiar; insere a criação de políticas públicas de prevenção, assistência e proteção às vítimas; prevê a instituição de Juizados de Violência Doméstica e Familiar contra a Mulher; institui as medidas protetivas de urgência; e estabelece a promoção de programas educacionais com perspectiva de gênero, raça e etnia, entre outras propostas. Todos esses dispositivos intensificam uma rede integrada de enfrentamento à violência doméstica e familiar contra a mulher, além de atenderem às recomendações da Comissão Interamericana de Direitos Humanos para o caso Maria da Penha Maia Fernandes. Mais do que uma alteração da legislação penal, a Lei n. 11.340/2006 representa um importante instrumento legal de proteção aos direitos humanos das mulheres para uma vida livre de violência."
+		}
+	],
+	"reasons":{
+		"lines":"/assets/law/lines.png",
+		"importance":{
+			"icon":"/assets/law/reasons_icon.png",
+			"title":"POR QUE A LEI MARIA DA PENHA<br/>É IMPORTANTE HOJE?",
+			"description":"Além de proteger mulheres em situação de violência e salvar vidas, a Lei n. 11.340/2006 pune os agressores, fortalece a autonomia das mulheres, educa a sociedade e cria meios de assistência e atendimento humanizado, bem como inclui valores de direitos humanos nas políticas públicas para o enfrentamento e combate à violência de gênero. "
+		},
+		"explanation":{
+			"title":"AFINAL, O QUE É UMA MEDIDA PROTETIVA DE URGÊNCIA?",
+			"description":"Trata-se de uma determinação do juiz ou juíza para proteger a mulher em situação de violência doméstica, familiar ou na relação de afeto, conforme a necessidade da solicitante. As medidas protetivas podem ser demandadas já no atendimento policial, na delegacia, e ordenadas pelo juiz ou juíza em até 48 horas, devendo ser emitidas com urgência em casos em que a mulher corre risco de morte. Assim, conforme o art. 22 da Lei Maria da Penha, o juiz ou juíza poderá determinar:",
+			"list":[
+				"A proibição ou restrição do uso de arma por parte do agressor.",
+				"O afastamento do agressor da casa.",
+				"A proibição do agressor de se aproximar da mulher agredida.",
+				"A restrição ou suspensão de visitas aos dependentes menores.",
+				"A obrigatoriedade da prestação de alimentos provisórios.",
+				"A restituição de bens indevidamente subtraídos pelo agressor.",
+				"A proibição de venda ou aluguel de imóvel da família sem autorização judicial.",
+				"O depósito de valores correspondentes aos danos causados pelo agressor etc."
+			]
+		}
+	}
+
+}

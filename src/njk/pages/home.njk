@@ -1,0 +1,91 @@
+{% extends "layouts/default.njk" %}
+
+{% set borderCam = false %}
+
+{% block content %}
+
+	<div class="hero-home">
+		<div class="container">
+			<h1 class="title">{{ hero.title | safe }}</h1>
+			<div><a href="{{ root(hero.ctaUrl) }}" class="btn">{{ hero.ctaLabel }}</a></div>
+		</div>
+		<img src="{{ root(hero.imagePath) }}" />
+	</div>
+
+	<div class="profile-navigation">
+		{% for profile in profileNav %}
+			<div class="profile-wrapper">
+				<img src="{{ root(profile.imagePath) }}" alt="">
+				<div class="profile-content">
+					<h2>{{ profile.title | safe }}</h2>
+					<ul>
+						{% if profile.ctaLabel1.length %}
+							<li><a href="{{ root(profile.ctaUrl1) }}" title="">{{ profile.ctaLabel1 | safe }}</a></li>
+						{% endif %}
+						{% if profile.ctaLabel2.length %}
+							<li><a href="{{ root(profile.ctaUrl2) }}" title="">{{ profile.ctaLabel2 | safe }}</a></li>
+						{% endif %}
+						{% if profile.ctaLabel3.length %}
+							<li><a href="{{ root(profile.ctaUrl3) }}" title="">{{ profile.ctaLabel3 | safe }}</a></li>
+						{% endif %}
+					</ul>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+
+	{% include "partials/cam.njk" %}
+
+	<div class="section-our-projects">
+		<div class="container">
+			<div class="about">
+				<h2>{{ ourProjects.title | safe }}</h2>
+			</div>
+
+			<div class="projects-home">
+				{% for project in ourProjects.projects %}
+					<div>
+						<h3>{{ project.title | safe }}</h3>
+						<p>{{ project.description | safe }}</p>
+						<a class="default-btn" href="{{ root(project.ctaUrl) }}">{{ project.ctaLabel | safe }}</a>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+
+	<div class="section-contribute">
+		<div class="container">
+			<div class="info-text">
+				<h5>{{ contribute.title | safe }}</h5>
+				<p class="description">{{ contribute.description | safe }}</p>
+				<p class="highlight-text"><span>{{ contribute.highlight | safe }}</span></p>
+			</div>
+			<div class="bank-transfer">
+				<p>{{ contribute.bankAccount.title | safe }}</p>
+				<ul class="account-info">
+					<li>{{ contribute.bankAccount.accountName | safe }}</li>
+					<li>CNPJ: {{ contribute.bankAccount.cnpj | safe }}</li>
+					<li>Banco: {{ contribute.bankAccount.banco | safe }}</li>
+					<li>Agência: {{ contribute.bankAccount.agencia | safe }}</li>
+					<li>Operação: {{ contribute.bankAccount.operacao | safe }}</li>
+					<li>CC: {{ contribute.bankAccount.cc | safe }}</li>
+				</ul>
+			</div>
+			<div class="card-paypal">
+				<p>{{ contribute.otherMethods.title | safe }}</p>
+				<ul class="payments-logos">
+					{% for logos in contribute.otherMethods.paymenttLogos %}
+						<li><img src="{{ root(logos.logo) }}" alt=""></li>
+					{% endfor %}
+				</ul>
+				<a href="{{ contribute.donateCta.url }}" target="_blank">{{ contribute.donateCta.label }}</a>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

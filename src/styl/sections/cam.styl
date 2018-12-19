@@ -1,0 +1,43 @@
+.cam
+	background-color $white
+	padding 40px
+
+	&.border
+		position relative
+
+		&:before
+			background-color $secondary-color
+			content ''
+			display block
+			max-width 1310px
+			height 1px
+			width 100%
+			position absolute
+			top 0
+			left 50%
+			transform translateX(-50%)
+
+	.content
+		align-items center
+		display flex
+		flex-flow column
+		justify-content space-between
+		margin $gutter 0
+
+		img
+			max-width 190px
+
+		p
+			line-height 1.7
+			margin $gutter 0 0
+
+			b
+				font-size 22px
+
+		+desktop()
+			flex-flow row
+
+			p
+				font-size 18px
+				max-width 680px
+				margin 0

@@ -1,0 +1,222 @@
+.contact
+	background-color $white
+
+	.container
+		max-width 1140px
+
+	h1
+		font-family(lato, black)
+		color $secondary-color
+		font-size 24px
+		margin 0 auto
+		text-align center
+		text-transform uppercase
+
+		+tablet()
+			font-size 40px
+	h3
+		font-family(roboto, bold)
+		font-size 22px
+		margin 0 auto
+		max-width 450px
+		text-align center
+
+	.contact-info
+		component-spacing()
+		position relative
+
+		.container
+			&:after
+				background-color $secondary-color
+				bottom -100px
+				content ''
+				display block
+				height 1px
+				position relative
+				width 100%
+
+		h3
+			color $white
+			line-height 1.8
+			margin 20px auto $gutter
+
+			+tablet()
+				margin 20px auto 80px
+
+			span
+				background-color $tertiary-color
+				box-shadow 10px 0 0 $tertiary-color, -10px 0 0 $tertiary-color
+				display inline
+				padding 5px 10px
+
+		.info-wrapper
+			display block
+			margin 0 auto
+			max-width 910px
+			position relative
+
+			+desktop()
+				display flex
+				justify-content space-around
+
+			.description
+				font-family(roboto, bold)
+				font-size 16px
+				line-height 1.8
+				margin-bottom 25px
+
+				+desktop()
+					font-size 18px
+					max-width 340px
+
+			.contact-list
+				.contact-list-item
+					margin 0 auto 45px
+
+					.icon
+						display block
+						margin 0 auto
+
+						+desktop()
+							display inline-block
+							margin none
+							vertical-align middle
+
+					.label
+						font-family(roboto, normal)
+						display block
+						font-size 16px
+						line-height 2
+						text-align center
+						word-break break-all
+
+						+desktop()
+							display inline-block
+							font-size 18px
+							margin-left 15px
+							text-align left
+							vertical-align middle
+
+	.contact-thanks
+		margin 0 auto
+		padding $gutter 0 0
+		position relative
+
+		h1
+			color $tertiary-color
+			margin-bottom $gutter
+
+			+tablet()
+				margin-bottom $gutter*2
+
+		.description
+			font-family(roboto, normal)
+			font-size 16px
+			line-height 1.8
+			margin 0 auto $gutter
+			max-width 680px
+			text-align center
+
+			+tablet()
+				font-size 18px
+
+		h2
+			color $secondary-color
+			font-family(lato, black)
+			font-size 24px
+			text-align center
+			text-transform uppercase
+
+			+tablet()
+				margin $gutter*2 auto
+
+		.thank-you
+			&:after
+				background-color $tertiary-color
+				content ''
+				display block
+				height 100px
+				margin $gutter*2 auto
+				position relative
+				width 1px
+
+		.special-thanks
+			.special-thanks-list
+				display flex
+				justify-content space-between
+				margin 0 auto
+				position relative
+				text-align center
+
+				.thanks-list-item
+					display block
+					margin $gutter auto
+					max-width 260px
+
+					+tablet()
+						display inline-block
+						margin 0 0 $gutter
+						max-width 270px
+						width 100%
+
+					.name
+						font-family(roboto, bold)
+						font-size 18px
+						line-height 1.8
+						position relative
+						margin-left 55px
+						text-align left
+
+						&:before
+							background-color $tertiary-color
+							content ''
+							display block
+							height 2px
+							left -55px
+							position absolute
+							top 50%
+							width 50px
+
+					.role
+						font-family(roboto, normal)
+						font-size 18px
+						margin-left 55px
+						text-align left
+
+		.thank-you-lists
+			display flex
+			flex-flow row wrap
+			justify-content space-between
+			padding-bottom 150px
+
+			.women-wrapper
+				margin-top $gutter * 3
+				min-width 410px
+
+				.women
+					margin 0 0 $gutter
+					position relative
+					text-align left
+
+					+tablet()
+						padding-left 65px
+
+					&:before
+						background-color $tertiary-color
+						bottom 5px
+						content ''
+						display none
+						height 2px
+						left 0
+						position absolute
+						width 50px
+
+						+tablet()
+							display block
+
+				.women-photos
+					+tablet()
+						padding-left 65px
+					.women-list-item
+						line-height 1.8
+

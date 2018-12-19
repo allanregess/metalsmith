@@ -1,0 +1,36 @@
+{
+	"_template": "pages/projeto-interna.njk",
+	"pageTitle": "Curso: Defensoras e Defensores dos Direitos à Cidadania (DDDC) - Instituto Maria da Penha",
+	"hero": {
+		"imagePath":"/assets/hero/curso-dddc-hero.jpg",
+		"icon":"/assets/projects/hat-icon.png",
+		"preTitle":"curso",
+		"title":"Defensoras e Defensores dos Direitos à Cidadania (DDDC) – Parcerias com Universidades"
+	},
+	"projectContent": [
+		{
+			"title":"Objetivo",
+			"description":"Este curso tem como objetivo a promoção de mudanças na atitude dos cidadãos e cidadãs diante da questão da violência doméstica praticada contra a mulher."
+		},
+		{
+			"title":"Contexto",
+			"description":"O programa de Formação de Defensoras e Defensores dos Direitos da Cidadania (DDDC) contribui com o poder público no que diz respeito às formas de criação de mecanismos técnico-pedagógicos para, conforme o art. 1º da Lei n. 11.340/2006, “coibir e prevenir a violência doméstica e familiar contra a mulher, nos termos do § 8º do art. 226 da Constituição Federal, da Convenção sobre a Eliminação de Todas as Formas de Violência contra a Mulher, da Convenção Interamericana para Prevenir, Punir e Erradicar a Violência contra a Mulher e de outros tratados internacionais ratificados pela República Federativa do Brasil”."
+		},
+		{
+			"title":"Papel social",
+			"description":"Abordando temas como cidadania, direitos das mulheres, violência doméstica, saúde da mulher, Lei Maria da Penha e políticas públicas, o IMP busca implementar uma cultura de sensibilização, conscientização e ações de enfrentamento à violência doméstica por meio da capacitação de diversos públicos. Com isso, buscamos formar multiplicadores capazes de detectar situações de violação de direitos, especialmente no tema da violência contra a mulher. <br /><br />O IMP realiza este curso desde 2010 em Recife (PE) e Fortaleza (CE), nas universidades, faculdades e em áreas de vulnerabilidade social. Além de formar mais de 900 pessoas, cerca de 4.500 já foram impactadas indiretamente. E esse número cresce a cada dia."
+		}
+	],
+	"projectInfo": [
+		{
+			"class":"public",
+			"title":"Público-Alvo",
+			"description":"Estudantes universitários, educadores, população residente em áreas de vulnerabilidade social, lideranças comunitárias, entre outros."
+		},
+		{
+			"class":"duration",
+			"title":"Duração",
+			"description":"60 horas"
+		}
+	]
+}

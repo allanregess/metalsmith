@@ -1,0 +1,35 @@
+{
+	"_template": "pages/projeto-interna.njk",
+	"pageTitle": "Palestra da Maria da Penha - Instituto Maria da Penha",
+	"hero": {
+		"imagePath":"/assets/hero/palestra-maria-hero.jpg",
+		"icon":"/assets/projects/group-icon.png",
+		"preTitle":"Palestra",
+		"title":"Palestra da Maria da Penha",
+		"ctaUrl":"mailto:atendimento@institutomariadapenha.com.br",
+		"ctaLabel":"Entrar em contato"
+	},
+	"projectContent": [
+		{
+			"title":"Conteúdo",
+			"description":"Nesta palestra, Maria da Penha conta a sua história de vida. O seu relato vai desde o momento em que conheceu o seu agressor, passando por todas as fases desse relacionamento e do ciclo da violência, até o crime. <br /><br />Ela narra também o processo de criação da Lei Maria da Penha e a sua luta por justiça, que não se encerrou com a condenação de seu ex-marido, mas continua até hoje para que todas as mulheres tenham direito a uma vida livre de violência."
+		}
+	],
+	"projectInfo": [
+		{
+			"class":"public",
+			"title":"Público-Alvo",
+			"description":"Instituições públicas e privadas etc."
+		},
+		{
+			"class":"duration",
+			"title":"Duração",
+			"description":"1 hora"
+		},
+		{
+			"class":"contacts",
+			"title":"Contato",
+			"description":"Para contratar e obter mais informações, entre em contato pelo e-mail: <b>agenda@institutomariadapenha.com.br</b>"
+		}
+	]
+}

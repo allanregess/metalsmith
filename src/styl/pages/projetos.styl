@@ -1,0 +1,353 @@
+.projects
+	background-color $white
+
+	.hero-projects
+
+		.hero-img-bg
+			imgCover()
+
+			.container
+				align-items center
+				color $white
+				display flex
+				flex-flow column
+				justify-content center
+				line-height 1.5
+				padding 90px $gutter 130px
+				position relative
+				text-align center
+				z-index 2
+
+				+tablet()
+					padding 0 $gutter
+					min-height 470px
+
+				h1
+					font-family(lato, black)
+					font-size 24px
+					margin 0
+					text-transform uppercase
+
+					+tablet()
+						font-size 40px
+
+				p
+					font-size 16px
+					max-width 410px
+
+					+tablet()
+						font-size 18px
+						max-width 680px
+
+	.projects-container
+		&:after
+			background-color $tertiary-color
+			bottom -50px
+			content ''
+			display block
+			height 1px
+			position relative
+			width 100%
+
+			+tablet()
+				bottom -150px
+
+	.projects-container,
+	.bulletin-container,
+	.courses-container,
+	.education-container
+		padding-bottom 50px
+		padding-top 50px
+		position relative
+
+		+tablet()
+			padding-bottom 150px
+			padding-top 150px
+
+		+maxWide()
+			padding-bottom 150px
+			padding-top 150px
+
+		&.gray-bg
+			background-color $light-gray
+
+	.courses-container,
+	.education-container
+		.content
+			padding-top $gutter * 2
+			text-align center
+
+	h2
+		font-family(lato, black)
+		color $secondary-color
+		display block
+		font-size 24px
+		flex-grow 1
+		line-height 1.4
+		margin 0
+		position relative
+		text-decoration underline
+		text-transform uppercase
+		vertical-align top
+		z-index 1
+
+		+tablet()
+			display inline-block
+
+		+desktop()
+			font-size 40px
+			max-width 275px
+			width 100%
+
+	h5
+		font-family(roboto, bold)
+		color $black
+		display block
+		font-size 18px
+		line-height 1.5
+		margin-top 25px
+		position relative
+		vertical-align top
+		z-index 1
+
+		u
+			font-size smaller
+			text-decoration none
+			vertical-align super
+
+		+tablet()
+			display inline-block
+
+		+desktop()
+			font-size 22px
+			max-width 275px
+
+	.description
+		display block
+		line-height 2
+		max-width 795px
+		position relative
+		vertical-align top
+		z-index 1
+
+		+desktop()
+			display inline-block
+			font-size 18px
+			margin-left $gutter * 2
+			margin-top 10px
+			width 60%
+
+		&.open
+			.more
+				display none
+			p.view-more
+				max-height none
+
+		u
+			font-size smaller
+			text-decoration none
+			vertical-align super
+
+		p
+			margin $gutter 0 0
+
+			&.view-more
+				max-height 160px
+				overflow hidden
+
+			+desktop()
+				font-size 18px
+				margin 0
+
+				&.view-more
+					max-height none
+
+	.more
+		more-link()
+
+		+desktop()
+			display none
+
+	.content
+		justify-content center
+		margin $gutter auto 0
+		max-width 425px
+		position relative
+
+		+desktop()
+			max-width 960px
+
+		.bg
+			display none
+			right -20px
+			position absolute
+			top 40%
+			transform scale(0.6) translateY(-50%)
+			z-index 0
+
+			+desktop()
+				display block
+				right -50px
+				transform scale(0.8) translateY(-50%)
+
+			+maxWide()
+				right -80px
+				transform translateY(-50%)
+
+	.projects-box
+		font-family(roboto, normal)
+		background-color $white
+		border-radius 10px
+		display inline-block
+		filter drop-shadow(0px 0px 10px alpha($black, 0.1))
+		margin 30px 0px
+		padding 50px 15px 50px 20px
+		vertical-align top
+
+		+tablet()
+			margin 40px 16px
+			padding 50px 45px 50px 40px
+			width 255px
+
+		&.open
+			&:before
+				background $tertiary-color
+				content ''
+				display none
+				height 9px
+				left 0
+				position absolute
+				top 0
+				width 100%
+			.more
+				display none
+			.content
+				margin-bottom $gutter
+				max-height none
+				&:after
+					display none
+
+		h5
+			font-family(roboto, bold)
+			color $dark-secondary
+			font-size 18px
+			line-height 1.5
+			margin 0
+			text-transform uppercase
+
+		.description
+			font-family(roboto, bold)
+			color $black
+			font-size 16px
+			line-height 1.5
+			margin 20px 0 0
+			width 100%
+
+		.more
+			more-link()
+
+		.content
+			line-height 1.5
+			max-height 80px
+			overflow hidden
+			position relative
+
+			&:after
+				background linear-gradient(to bottom, alpha($white, 0) 0%, $white 100%);
+				bottom 0
+				content ''
+				display block
+				height 30px
+				position absolute
+				width 100%
+
+		a
+			margin 10px 0
+
+		.download-btn
+			btn(icon:download, type:secondary)
+
+		.copy-btn
+			btn(icon:copy, type:secondary)
+
+	.course-box
+		border-radius 8px
+		display inline-block
+		filter drop-shadow(0px 0px 10px alpha($black, 0.1))
+		margin 0 0 $gutter 0
+		min-width 260px
+		max-width 300px
+		overflow hidden
+		padding 15px 10px
+		position relative
+
+		+desktop()
+			margin 0 15px
+			padding 25px 20px
+
+		&:hover
+			.background:before
+				opacity 0
+				transition opacity 0.2s ease-out
+
+		.background
+			height 100%
+			left -5%
+			position absolute
+			top -5%
+			width 100%
+
+			&:before
+				background-color $white
+				content ''
+				display block
+				height 120%
+				left -10%
+				opacity 1
+				position absolute
+				top -10%
+				transition opacity 0.2s ease-out
+				width 120%
+				z-index 2
+
+			.blur-image
+				background-size cover
+				filter blur(5px)
+				height 110%
+				width 110%
+				z-index 1
+
+		.content-wrapper
+			height 300px
+			padding 50px 30px
+			position relative
+			z-index 3
+
+			.image
+				background-position center
+				background-size cover
+				border 1px solid alpha($tertiary-color, 0.5)
+				height 100%
+				left 0
+				position absolute
+				top 0
+				width 100%
+				z-index 0
+
+			.icon
+				display block
+				position relative
+				margin 0 auto
+			h5
+				color $white
+				font-size 18px
+				margin $gutter * 1.5 0
+				text-align left
+			.arrow-btn
+				btn(icon:arrow, type:white)
+				bottom 50px
+				display block
+				left 50%
+				position absolute
+				transform translateX(-50%)
+				width 240px

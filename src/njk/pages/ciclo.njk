@@ -1,0 +1,129 @@
+{% extends "layouts/default.njk" %}
+
+{% block metatags %}
+	<meta property="og:url" content="{{ root('/violencia-domestica/ciclo-da-violencia.html') }}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Ciclo da Violência" />
+	<meta property="og:description" content="Saiba identificar as três principais fases do ciclo e entenda como ele funciona." />
+	<meta property="og:image" content="{{ root('/assets/ciclo/IMP-ciclo-da-violencia-share.jpg') }}" />
+{% endblock %}
+
+{% block content %}
+<div class="hero-ciclo">
+	<div class="container">
+		<div class="first-block">
+			<h1>{{ hero.title | safe }}</h1>
+			<p>{{ hero.subtitle | safe }}</p>
+			<img class="bg" src="{{ root('/assets/ciclo/bg-hero-ciclo.jpg') }}" />
+		</div>
+		<p class="bottom-text">{{ hero.bottomText | safe }}</p>
+	</div>
+</div>
+
+<div class="cicles">
+	<div class="container">
+		<div class="phases ciclo1">
+			<div class="background">
+				<img class="bg" src="{{ root('/assets/ciclo/phase1.jpg') }}" />
+				<p><span>{{ phase1.description | safe }}</span></p>
+			</div>
+			<div class="text">
+				<span>{{ phase1.subtitle | safe }}</span>
+				<h2>{{ phase1.title | safe }}</h2>
+				<p>{{ phase1.text | safe }}</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="cicles part2">
+	<div class="container">
+		<div class="phases cicle2">
+			<div class="background">
+				<img class="bg" src="{{ root('/assets/ciclo/phase2.jpg') }}" />
+				<p><span>{{ phase2.description | safe }}</span></p>
+			</div>
+			<div class="text">
+				<span>{{ phase2.subtitle | safe }}</span>
+				<h2>{{ phase2.title | safe }}</h2>
+				<p>{{ phase2.text | safe }}</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="cicles part3">
+	<div class="container">
+		<div class="phases cicle3">
+			<div class="background">
+				<img class="bg" src="{{ root('/assets/ciclo/phase3.jpg') }}" />
+				<p><span>{{ phase3.description | safe }}</span></p>
+			</div>
+			<div class="text">
+				<span>{{ phase3.subtitle | safe }}</span>
+				<h2>{{ phase3.title | safe }}</h2>
+				<p>{{ phase3.text | safe }}</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="cycle-break">
+	<div class="container">
+		<h3>{{ cycleBreak.mainTitle | safe }}</h3>
+		<p class="description">{{ cycleBreak.description | safe }}</p>
+		<div class="content">
+			<div>
+				<h4>{{ cycleBreak.subtitle1 | safe }}</h4>
+				<p>{{ cycleBreak.text1 | safe }}</p>
+			</div>
+			<div>
+				<h4>{{ cycleBreak.subtitle2 | safe }}</h4>
+				<p>{{ cycleBreak.text2 | safe }}</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="cycle-share">
+	<div class="container">
+		<div class="content">
+			<div class="cycle-img">
+				<p class="phase-one">Fase 1 <br><span>Aumento da tensão</span></p>
+				<p class="phase-two">Fase 2 <br><span>Ato de violência</span></p>
+				<p class="phase-three">Fase 3 <br><span>Arrepen&#x00AD;dimento</span></p>
+			</div>
+			<div class="share-cta">
+				<p>Ajude outras mulheres a reconhecerem as fases do ciclo da violência.</p>
+				<a href="http://www.facebook.com/sharer.php?" target="_blank">Compartilhe este ciclo</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="more-info">
+		<div class="container">
+			{% for info in moreInfo %}
+				<div>
+					<h5>{{ info.title }}</h5>
+					<p>{{ info.description | safe }}</p>
+					<a class="default-btn" href="{{ root(info.ctaUrl) }}" title="Saiba mais">{{ info.ctaLabel }}</a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+
+	<div class="references">
+		<div class="container">
+			<h5>{{ references.title | safe }}</h5>
+			<p>{{ references.text | safe }}</p>
+		</div>
+	</div>
+
+	{% include "partials/cam.njk" %}
+
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

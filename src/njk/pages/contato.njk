@@ -1,0 +1,111 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+	<div class="contact">
+		<div class="contact-info">
+			<div class="container">
+
+				<h1>{{ contact.title }}</h1>
+				<h3><span>{{ contact.subtitle }}</span></h3>
+
+
+				<div class="info-wrapper">
+					<p class="description">{{ contact.description | safe }}</p>
+					<ul class="contact-list">
+						{% for item in contact.contactInfo %}
+							<li class="contact-list-item">
+								<img src="{{ root(item.icon) }}" class="icon">
+								<div class="label">{{ item.label }}</div>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="contact-thanks">
+			<div class="container">
+				<h1>{{ thanks.title }}</h1>
+				<h3>{{ thanks.subtitle }}</h3>
+				<div class="description">{{ thanks.description | safe  }}</div>
+				<h2 class="thank-you">{{ thanks.thanks }}</h2>
+
+				<div class="special-thanks">
+					<ul class="special-thanks-list">
+						{% for item in thanks.specialThanks %}
+							<li class="thanks-list-item">
+								<img src="{{ root(item.photo) }}" class="photo">
+								<div class="name">{{ item.name }}</div>
+								<div class="role">{{ item.description }}</div>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="thank-you-lists">
+
+						<div class="women-wrapper">
+							<h2 class="women">{{ thanks.photosTitle }}</h2>
+							<ul class="women-photos">
+								{% for item in thanks.women %}
+									<li class="women-list-item">{{ item }}</li>
+								{% endfor %}
+							</ul>
+						</div>
+
+						<div class="women-wrapper">
+							<h2 class="women">Estúdio Digital</h2>
+							<ul class="women-photos">
+								<li class="women-list-item">Daniele Pereira (UI)</li>
+								<li class="women-list-item">Gustavo Terra (UI)</li>
+								<li class="women-list-item">Tatiana Ávila (UX)</li>
+								<li class="women-list-item">Juliana Fernandes (UX)</li>
+								<li class="women-list-item">Luiz Campedelli (Frontend)</li>
+								<li class="women-list-item">Caio Vertematti (Frontend)</li>
+								<li class="women-list-item">Allan Reges (Frontend)</li>
+								<li class="women-list-item">Patricia Jordão (Frontend)</li>
+								<li class="women-list-item">Diogo Souza (Backend)</li>
+								<li class="women-list-item">Eliane Arakaki (Conteúdo)</li>
+								<li class="women-list-item">Weslei Nunes (SEO)</li>
+								<li class="women-list-item">Agnaldo Gonçalves (Agile)</li>
+								<li class="women-list-item">Ana Zolin (Revisão)</li>
+								<li class="women-list-item">Renata Garcia (Revisão)</li>
+								<li class="women-list-item">Victoria Santelo (Revisão)</li>
+								<li class="women-list-item">Ana Beatriz Faria (Tradução)</li>
+								<li class="women-list-item">Ingrid Leão (Cladem)</li>
+							</ul>
+						</div>
+
+						<div class="women-wrapper">
+							<h2 class="women">Insights</h2>
+							<ul class="women-photos">
+								<li class="women-list-item">Caroline Ferraz</li>
+								<li class="women-list-item">Lais Mendonça</li>
+								<li class="women-list-item">Kelvin Alves</li>
+							</ul>
+						</div>
+
+						<div class="women-wrapper">
+							<h2 class="women">Atendimento</h2>
+							<ul class="women-photos">
+								<li class="women-list-item">Enrico Fernandes</li>
+								<li class="women-list-item">Fernanda Silvado</li>
+								<li class="women-list-item">Monica Gelbecke</li>
+							</ul>
+						</div>
+
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+
+	{% include "partials/cam.njk" %}
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

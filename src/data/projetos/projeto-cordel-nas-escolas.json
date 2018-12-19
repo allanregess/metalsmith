@@ -1,0 +1,31 @@
+{
+	"_template": "pages/projeto-interna.njk",
+	"pageTitle": "Projeto cordel nas escolas - Instituto Maria da Penha",
+	"hero": {
+		"imagePath":"/assets/hero/projeto-cordel-hero.jpg",
+		"icon":"/assets/projects/book-icon.png",
+		"preTitle":"Educação",
+		"title":"Projeto cordel nas escolas"
+	},
+	"projectContent": [
+		{
+			"title":"Objetivos",
+			"description":"O Projeto Lei Maria da Penha em Cordel visa sensibilizar crianças de escolas públicas sobre os fundamentos da lei e os conceitos dos tipos de violência doméstica por meio do instrumento lúdico-pedagógico da literatura de cordel e da música. Além disso, há um movimento de conscientização do corpo docente e discente sobre as consequências nocivas que esse tipo de violência traz para toda a sociedade. Este projeto é executado pelo poeta popular e artista educador <b>Tião Simpatia</b>, parceiro do Instituto Maria da Penha desde a sua fundação."
+		},
+		{
+			"title":"Contexto",
+			"description":"Uma das consequências da violência doméstica e familiar contra a mulher recai sobre os filhos, que muitas vezes presenciam as agressões e correm o risco de se tornarem vítimas. Isso pode ter efeitos prejudiciais na saúde e no desenvolvimento das crianças, bem como levar à antecipação do desejo de sair de casa, à repetição do comportamento violento e à entrada no mundo das drogas. <br /><br />Diante disso, é de extrema importância que esses estudantes sejam capazes de refletir sobre a violência doméstica e a igualdade de gênero, tendo consciência do que significa um comportamento agressivo e desrespeitoso dentro da unidade familiar. Acreditamos que iniciativas dessa natureza são indispensáveis para a diminuição da violência doméstica nas próximas gerações."
+		},
+		{
+			"title":"Alcance",
+			"description":"Implementado em novembro de 2018 nas escolas da rede estadual de ensino do Estado do Ceará, por meio da Secretaria da Educação do Ceará (SEDUC), o projeto é uma parceria entre o Instituto Maria da Penha e o Governo do Estado. Serão contempladas, a princípio, 70 escolas localizadas em Fortaleza e região metropolitana, alcançando 30 mil alunos diretamente."
+		}
+	],
+	"projectInfo": [
+		{
+			"class":"public",
+			"title":"Público-Alvo",
+			"description":"Estudantes de escolas públicas da rede de ensino estadual de Fortaleza e região metropolitana."
+		}
+	]
+}

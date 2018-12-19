@@ -1,0 +1,93 @@
+{
+	"_template":"pages/tipos-violencia.njk",
+	"pageTitle":"Tipos de violência - Instituto Maria da Penha",
+	"hero":{
+		"title":"TIPOS DE VIOLÊNCIA",
+		"subtitle":"Estão previstos cinco tipos de violência doméstica e familiar contra a mulher na Lei Maria da Penha: <b>física, psicológica, moral, sexual e patrimonial</b> − Capítulo II, art. 7º, incisos I, II, III, IV e V.",
+		"bottomTextLeft":"Essas formas de agressão são complexas, perversas, não ocorrem isoladas umas das outras e têm graves consequências para a mulher. Qualquer uma delas constitui ato de violação dos direitos humanos e deve ser denunciada.",
+		"bottomTextRight":"Esvazia-me os olhos e condena-me à escuridão eterna...  – que eu, mais do que nunca, dos limos da alma, me erguerei lúcida, bramindo contra tudo: Basta! Basta! Basta!",
+		"bottomTextRightAuthor":"<b>Noémia de Sousa</b>, poeta"
+	},
+	"listViolence": [
+		{
+			"title":"VIOLÊNCIA FÍSICA",
+			"text":"Entendida como qualquer conduta que ofenda a integridade ou saúde corporal da mulher.",
+			"listItems": [
+				"Espancamento",
+				"Atirar objetos, sacudir e apertar os braços",
+				"Estrangulamento ou sufocamento",
+				"Lesões com objetos cortantes ou perfurantes",
+				"Ferimentos causados por queimaduras ou armas de fogo",
+				"Tortura"
+			]
+		},
+		{
+			"title":"Violência Psicológica",
+			"text":"É considerada qualquer conduta que: cause dano emocional e diminuição da autoestima; prejudique e perturbe o pleno desenvolvimento da mulher; ou vise degradar ou controlar suas ações, comportamentos, crenças e decisões.",
+			"listItems": [
+				"Ameaças",
+				"Constrangimento",
+				"Humilhação",
+				"Manipulação",
+				"Isolamento (proibir de estudar e viajar ou de falar com amigos e parentes)",
+				"Vigilância constante",
+				"Perseguição contumaz",
+				"Insultos",
+				"Chantagem",
+				"Exploração",
+				"Limitação do direito de ir e vir",
+				"Ridicularização",
+				"Tirar a liberdade de crença",
+				"Distorcer e omitir fatos para deixar a mulher em dúvida sobre a sua memória e sanidade (<i>gaslighting</i>)"
+			]
+		},
+		{
+			"title":"Violência Sexual",
+			"text":"Trata-se de qualquer conduta que constranja a presenciar, a manter ou a participar de relação sexual não desejada mediante intimidação, ameaça, coação ou uso da força.",
+			"listItems": [
+				"Estupro",
+				"Obrigar a mulher a fazer atos sexuais que causam desconforto ou repulsa",
+				"Impedir o uso de métodos contraceptivos ou forçar a mulher a abortar",
+				"Forçar matrimônio, gravidez ou prostituição por meio de coação, chantagem, suborno ou manipulação",
+				"Limitar ou anular o exercício dos direitos sexuais e reprodutivos da mulher"
+			]
+		},
+		{
+			"title":"Violência Patrimonial",
+			"text":"Entendida como qualquer conduta que configure retenção, subtração, destruição parcial ou total de seus objetos, instrumentos de trabalho, documentos pessoais, bens, valores e direitos ou recursos econômicos, incluindo os destinados a satisfazer suas necessidades.",
+			"listItems": [
+				"Controlar o dinheiro",
+				"Deixar de pagar pensão alimentícia",
+				"Destruição de documentos pessoais",
+				"Furto, extorsão ou dano",
+				"Estelionato",
+				"Privar de bens, valores ou recursos econômicos",
+				"Causar danos de propósito a objetos da mulher ou dos quais ela goste"
+			]
+		},
+		{
+			"title":"Violência Moral",
+			"text":"É considerada qualquer conduta que configure calúnia, difamação ou injúria.",
+			"listItems": [
+				"Acusar a mulher de traição",
+				"Emitir juízos morais sobre a conduta",
+				"Fazer críticas mentirosas",
+				"Expor a vida íntima",
+				"Rebaixar a mulher por meio de xingamentos que incidem sobre a sua índole",
+				"Desvalorizar a vítima pelo seu modo de se vestir"
+			]
+		}
+	],
+	"cultureViolence":{
+		"title":"CULTURA DA VIOLÊNCIA E DISCRIMINAÇÃO",
+		"subtitle":"Seja na esfera pública ou privada, os abusos contra a mulher ocorrem de muitas formas. Frases como:",
+		"textMainLeft":"Entre tantas outras, compõem o panorama cultural de uma sociedade patriarcal que legitima, banaliza, promove e silencia diante da violência contra a mulher.",
+		"textMainRight":"Mudar essa mentalidade e combater os estereótipos de gênero é uma maneira de enfrentar e não tolerar mais esse tipo de agressão.",
+		"textBottom":"Conhecia também uma violência praticada de forma quase invisível, que é <span>o preconceito contra as mulheres,</span> desrespeito que abre caminho para atos mais severos e graves contra nós. Apesar de nossas conquistas, mesmo não tendo as melhores oportunidades, ainda costumam dizer que somos inferiores, e isso continua a transparecer em comentários públicos, piadas, letras de músicas, filmes ou peças de publicidade. Dizem que somos más motoristas, que gostamos de ser agredidas, que devemos nos restringir à cozinha, à cama ou às sombras.",
+		"textCite":"<b>Maria da Penha</b><br> Trecho do livro <i>Sobrevivi... posso contar</i> (1994)"
+	},
+	"references": {
+		"title":"Referências",
+		"text":"BRASIL. <b>Lei n. 11.340, de 7 de agosto de 2006</b>. Disponível em: http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2006/Lei/L11340.htm. Acesso em: 27 jul. 2018. <br /><br /> PENHA, Maria da. <b>Sobrevivi... posso contar</b>. 2. ed. Fortaleza: Armazém da Cultura, 2012."
+	}
+}

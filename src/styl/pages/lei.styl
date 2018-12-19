@@ -1,0 +1,301 @@
+.law
+	background-color $white
+
+	p
+		font-size 16px
+		line-height 2
+		margin 30px auto 0
+		max-width 815px
+
+		+tablet()
+			font-size 18px
+
+	h3
+		font-family(lato, black)
+		color $secondary-color
+		display block
+		font-size 30px
+		flex-grow 1
+		line-height 1.4
+		margin 0
+		position relative
+		text-decoration underline
+		text-transform uppercase
+		vertical-align middle
+		z-index 1
+
+		+desktop()
+			font-size 40px
+
+	.hero-law
+
+		.hero-img-bg
+			imgCover()
+
+			.container
+				align-items center
+				color $white
+				display flex
+				flex-flow column
+				justify-content center
+				line-height 1.5
+				min-height 400px
+				padding 90px $gutter 100px
+				position relative
+				text-align center
+				z-index 2
+
+				+tablet()
+					padding 0 $gutter
+					min-height 470px
+
+				h1
+					font-family(lato, black)
+					font-size 24px
+					margin 0
+					max-width 365px
+					text-transform uppercase
+
+					+tablet()
+						font-size 40px
+						max-width 550px
+
+				p
+					font-size 16px
+					max-width 410px
+
+					+tablet()
+						font-size 18px
+						max-width 600px
+
+				a
+					margin 40px 0 0
+
+					+tablet()
+						margin 20px 0 0
+
+				.download-btn
+					btn(icon:download, type:white)
+
+		.hero-content
+			margin-top 60px
+
+
+			+tablet()
+				margin-top 100px
+
+			&:after
+				background-color $tertiary-color
+				content ''
+				display block
+				height 100px
+				margin 70px auto
+				position relative
+				width 1px
+
+			p
+				margin 30px auto 0
+				max-width 815px
+
+				&:first-letter
+					font-family(lato, black)
+					color $tertiary-color
+					font-size 75px
+					line-height 1
+					margin-right 8px
+
+	.topics-law
+		.topic
+			margin-bottom 110px
+
+			.content
+				margin-top 20px
+
+				+desktop()
+					align-items flex-start
+					display flex
+					justify-content space-between
+					max-width 1140px
+
+					h3
+						max-width 235px
+
+					p
+						margin 0
+						line-height 1.5
+
+	.content-box
+		background-color $white
+		filter drop-shadow(0px 0px 20px rgba(0,0,0,0.2))
+		margin 0 auto
+		max-width 1140px
+		padding 1px 0px
+		position relative
+		z-index 1
+
+		.icon
+			display block
+			margin $gutter*2 auto $gutter
+
+		.title
+			text-align center
+
+		.description
+			padding-bottom 85px
+
+	.reasons-law
+		position relative
+
+		.lines-bg
+			height 158px
+			overflow hidden
+			position absolute
+			top 200px
+			width 100%
+			z-index 0
+
+			img
+				left 50%
+				position absolute
+				transform translateX(-50%)
+
+		.content
+			background-color $light-gray
+			padding 380px $gutter 150px
+			margin-top -240px
+			position relative
+			z-index 0
+
+			.title
+				margin 0 auto
+				max-width 680px
+				text-align center
+
+			.list
+				margin 30px auto 0
+				max-width 815px
+
+				.list-item
+					font-family(roboto, bold)
+					font-size 18px
+					margin-bottom 40px
+					padding-left 40px
+					position relative
+
+					&:before
+						border-color $tertiary-color
+						border-style solid
+						border-width 0 1px 1px 0
+						content ''
+						display block
+						height 9px
+						left 0px
+						position absolute
+						top 7px
+						transform rotate(-45deg) translateY(-50%)
+						width 9px
+
+			.download-btn
+				btn(icon:download)
+				left 50%
+				margin-top 100px
+				transform translateX(-50%)
+
+	.resume
+		background-color $secondary-color
+		padding-bottom 170px
+
+		.content-box
+			margin-top $gutter * -2
+			padding-bottom 100px
+
+			.icon
+				margin $gutter * 2 auto
+
+			.description
+				padding-bottom 0px
+
+			.list
+				margin-bottom 80px
+
+			li
+				font-family(roboto, normal)
+				background-color $white
+				border-left none
+				border-top 10px solid $tertiary-color
+				box-shadow 5px -5px 20px 0px alpha($black, 0.1), 0 5px 20px 0px alpha($black, 0.1)
+				line-height 1.8
+				margin 50px auto
+				max-width 775px
+				padding 40px
+				position relative
+
+				+tablet()
+					border-left 10px solid $tertiary-color
+					border-top none
+					padding-left 80px
+
+				&:before
+					content ''
+					display block
+					left 50%
+					position absolute
+					top 0
+
+					+tablet()
+						left 0
+						top 50%
+
+				&:before
+					background-color $tertiary-color
+					border-radius 100%
+					height 54px
+					left 50%
+					top -33px
+					transform translateX(-50%)
+					width 54px
+
+					+tablet()
+						left -33px
+						top 50%
+						transform translateY(-50%)
+
+
+				.index
+					font-family(roboto, bold)
+					color white
+					display block
+					font-size 24px
+					left 50%
+					top -28px
+					position absolute
+					text-align center
+					transform translateX(-50%)
+					width 30px
+
+					+tablet()
+						left -22px
+						top 50%
+						transform translateY(-50%)
+
+			.bottom-title
+				font-family(lato, black)
+				color $secondary-color
+				font-size 24px
+				text-align center
+				text-transform uppercase
+
+			.bottom-description
+				padding 0 10px
+				text-align center
+
+			.download-btn
+				btn(icon:download, type:secondary)
+				left 50%
+				margin 45px 0 25px
+				transform translate(-50%)
+
+			.arrow-btn
+				btn(icon:arrow, type:secondary)
+				left 50%
+				transform translate(-50%)

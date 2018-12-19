@@ -1,0 +1,122 @@
+{% extends "layouts/default.njk" %}
+
+{% set borderCam = false %}
+
+{% block content %}
+	<div class="services">
+		<div class="hero-services">
+			<div class="hero-img-bg">
+				<img src="{{ root(hero.imagePath) }}" alt="" />
+				<div class="container">
+						<h1>{{ hero.title | safe }}</h1>
+						<p>{{ hero.description | safe }}</p>
+				</div>
+			</div>
+		</div>
+
+		 <div class="workshops-container container">
+
+			<div class="text-box">
+				<h2>{{ workshops.title | safe }}</h2>
+				<div class="description">{{ workshops.description | safe }}</div>
+			</div>
+
+			<div class="content">
+				{% for item in workshops.data %}
+					<div class="course-box">
+						<div class="background">
+							<div class="blur-image" style="background-image: url('{{ root(item.image) }}')">'</div>
+						</div>
+						<div class="content-wrapper">
+							<div class="image" style="background-image: url('{{ root(item.image) }}')"></div>
+							<img src="{{item.icon}}" class="icon" />
+							<h5>{{ item.title | safe }}</h5>
+							<a class="arrow-btn" href="{{ root(item.href) }}" title="">{{ item.label }}</a>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+
+		 <div class="consultancy-container gray-bg">
+			<div class="container">
+				<div class="text-box">
+					<h2>{{ consultancy.title | safe }}</h2>
+					<div class="description">{{ consultancy.description | safe }}</div>
+				</div>
+
+				<div class="content">
+					{% for item in consultancy.data %}
+						<div class="course-box">
+							<div class="background">
+								<div class="blur-image" style="background-image: url('{{ root(item.image) }}')"></div>
+							</div>
+							<div class="content-wrapper">
+								<div class="image" style="background-image: url('{{ root(item.image) }}')"></div>
+								<img src="{{item.icon}}" class="icon" />
+								<h5>{{ item.title | safe }}</h5>
+								<a class="arrow-btn" href="{{ root(item.href) }}" title="">{{ item.label }}</a>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+
+		 <div class="talks-container container">
+
+			<div class="text-box">
+				<h2>{{ talks.title | safe }}</h2>
+				<div class="description">{{ talks.description | safe }}</div>
+			</div>
+
+			<div class="content">
+				{% for item in talks.data %}
+					<div class="course-box">
+						<div class="background">
+							<div class="blur-image" style="background-image: url('{{ root(item.image) }}')">'</div>
+						</div>
+						<div class="content-wrapper">
+							<div class="image" style="background-image: url('{{ root(item.image) }}')"></div>
+							<img src="{{item.icon}}" class="icon" />
+							<h5>{{ item.title | safe }}</h5>
+							<a class="arrow-btn" href="{{ root(item.href) }}" title="">{{ item.label }}</a>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+
+		 <div class="courses-container gray-bg">
+			<div class="container">
+				<div class="text-box">
+					<h2>{{ courses.title | safe }}</h2>
+					<div class="description">{{ courses.description | safe }}</div>
+				</div>
+
+				<div class="content">
+					{% for item in courses.data %}
+						<div class="course-box">
+							<div class="background">
+								<div class="blur-image" style="background-image: url('{{ root(item.image) }}')"></div>
+							</div>
+							<div class="content-wrapper">
+								<div class="image" style="background-image: url('{{ root(item.image) }}')"></div>
+								<img src="{{item.icon}}" class="icon" />
+								<h5>{{ item.title | safe }}</h5>
+								<a class="arrow-btn" href="{{ root(item.href) }}" title="">{{ item.label }}</a>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	{% include "partials/cam.njk" %}
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

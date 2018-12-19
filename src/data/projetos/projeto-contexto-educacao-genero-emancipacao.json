@@ -1,0 +1,39 @@
+{
+	"_template": "pages/projeto-interna.njk",
+	"pageTitle": "Projeto contexto: Educação, gênero, emancipação - Instituto Maria da Penha",
+	"hero": {
+		"imagePath":"/assets/hero/projeto-contexto-hero.jpg",
+		"icon":"/assets/projects/book-icon.png",
+		"preTitle":"Educação",
+		"title":"Projeto contexto: Educação, gênero, emancipação"
+	},
+	"projectContent": [
+		{
+			"title":"O Projeto",
+			"description":"Este projeto, cofinanciado pela União Europeia e a ONG WeWorld Onlus, tem como realizadora a Plataforma Educação Marco Zero, composta de organizações nacionais e internacionais: WeWorld Brasil, Instituto Maria da Penha (IMP), Associação de Cooperação Agrícola do Estado do Ceará (ACACE), Cáritas Diocesana de Crateús, Escola Família Agrícola Dom Fragoso, Pastoral do Menor Nordeste I (PAMEN) e ESPLAR – Centro de Pesquisa e Assessoria."
+		},
+		{
+			"title":"Abordagens",
+			"description":"Educação contextualizada, pedagogia da alternância, gênero, enfrentamento à violência contra a mulher, práticas restaurativas e cultura de paz são alguns dos temas trabalhados em escolas públicas de 21 municípios do interior do Estado do Ceará de 2017 a 2021."
+		},
+		{
+			"title":"Objetivo e alcance",
+			"description":"Um dos objetivos mais importantes é tornar a educação contextualizada — metodologia de ensino desenvolvida pela Rede de Educação do Semiárido Brasileiro (RESAB) — uma política pública para as escolas dos 21 municípios do interior do Estado do Ceará, participantes do projeto, que compõem o semiárido brasileiro. Atualmente, as ações alcançam 134 escolas públicas municipais, mais de 1.500 professoras e professores e cerca de 20 mil estudantes, além dos Conselhos Municipais dos Direitos da Mulher; Conselhos Municipais de Defesa dos Direitos da Criança e do Adolescente; e Conselhos Municipais de Educação."
+		},
+		{
+			"title":"Presença do IMP",
+			"description":"O papel do IMP no Projeto Contexto consiste na realização de formações nas escolas públicas do território de atuação do projeto, esclarecendo os aspectos da afirmação identitária no contexto do semiárido, bem como os dispositivos da Lei Maria da Penha no enfrentamento à violência doméstica e familiar contra a mulher, e motivando as professoras e os professores a trabalharem com várias ferramentas pedagógicas que podem auxiliar na sensibilização e conscientização dentro e fora da sala de aula. <br /><br />As educadoras e os educadores recebem cartilhas informativas sobre os tipos de violência doméstica e materiais lúdicos, como a Lei Maria da Penha em literatura de cordel. Além disso, o IMP realiza um mapeamento das possibilidades de atendimento às mulheres em situação de violência, promove o fortalecimento dos Conselhos dos Direitos da Mulher e desenvolve um fluxograma sobre os equipamentos públicos especializados no atendimento a essas mulheres em cada um dos municípios que participam do projeto."
+		},
+		{
+			"title":"Educação para transformar",
+			"description":"Diante de um cenário em que o Brasil ocupa a 5ª posição em casos de feminicídio, num ranking de 83 países, de acordo com o Mapa da Violência de 2015, a educação apresenta-se como uma porta de acesso para o enfrentamento a esse tipo de violência presente em todo o Brasil."
+		}
+	],
+	"projectInfo": [
+		{
+			"class":"public",
+			"title":"Público-Alvo",
+			"description":"Estudantes e comunidade escolar da rede municipal de ensino, professoras e professores, grupos de mulheres e Conselhos de Direitos das Mulheres existentes no território de atuação do projeto."
+		}
+	]
+}

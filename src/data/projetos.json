@@ -1,0 +1,86 @@
+{
+	"_template": "pages/projetos.njk",
+	"pageTitle": "Projetos - Instituto Maria da Penha",
+	"hero": {
+		"title":"PROJETOS IMP",
+		"description":"Os nossos projetos buscam alcançar os mais diversos espaços da vida social, dimensionando o problema da violência doméstica e familiar contra a mulher e promovendo ações para mudanças culturais, sociais e educativas. <b>Além disso, as nossas pesquisas são responsáveis pela produção de dados que refletem o fenômeno da violência de gênero</b>.",
+		"imagePath":"/assets/hero/hero-projects-services.png"
+	},
+	"projects":{
+		"title": "pesquisas",
+		"description": "Realizada pelo IMP e outros parceiros, a Pesquisa de Condições Socioeconômicas e Violência Doméstica e Familiar contra a Mulher (PCSVDF<u>Mulher</u>) tem como objetivo criar um banco de indicadores estatísticos sobre a violência de gênero no Brasil, propondo uma investigação científica interdisciplinar a respeito do tema.",
+		"detailsTitle": "Pesquisa de Condições Socioeconômicas e Violência Doméstica e Familiar contra a Mulher (PCSVDF<u>Mulher</u>)",
+		"details": "O Instituto Maria da Penha realiza, em parceria com a Universidade Federal do Ceará (UFC), a Pesquisa de Condições Socioeconômicas e Violência Doméstica e Familiar contra a Mulher (PCSVDF<u>Mulher</u>), que é financiada pela Secretaria de Políticas Públicas para as Mulheres (SPM) e conta com a parceria técnico-institucional do Banco Mundial. <br /><br />Com mais de 10 mil mulheres entrevistadas a partir de uma pesquisa longitudinal que acontece em várias ondas (2016 e 2017) nas nove capitais do Nordeste, observa-se de que forma se apresentam os tipos de violência doméstica no interior desses grupos familiares. <br /><br />Além de entender como se manifesta a violência de gênero sob diferentes perspectivas, o objetivo dessa pesquisa é aprofundar o conhecimento sobre a violência doméstica e auxiliar no desenvolvimento de políticas públicas que possibilitem a diminuição deste tipo de violência no Brasil. <br /><br />Nesse sentido, o IMP participa ativamente com a consultoria pedagógica sobre o tema na elaboração do questionário e na capacitação das entrevistadoras que vão a campo para aplicá-lo. <br /><br /> A PCSVDF<u>Mulher</u> é uma pesquisa inédita, e o banco de dados que vem sendo gerado não possui precedentes na América Latina. Assim, os relatórios produzidos também são de extrema importância para a comunidade científica e outras organizações que trabalham com a violência de gênero.",
+		"data": [
+			{
+				"title": "RELATÓRIO EXECUTIVO I: PRIMEIRA ONDA – 2016",
+				"description": "Prevalência da Violência Doméstica e o Impacto nas Novas Gerações",
+				"content": "Este relatório apresenta um conjunto de dados que permite o estudo da violência doméstica e da distribuição de recursos no domicílio, bem como aponta questões que envolvem a saúde e o desenvolvimento das crianças. Nesse sentido, são relevantes os dados trazidos sobre agressões físicas sofridas por mulheres durante a gravidez e ao longo da infância dos filhos, os quais também podem se tornar vítimas da violência, entre outros resultados.",
+				"pdf": "/assets/downloads/relatorio_I.pdf"
+			},
+			{
+				"title": "Relatório Executivo II: Primeira Onda – 2016",
+				"description": "Violência Doméstica e seu Impacto no Mercado de Trabalho e na Produtividade das Mulheres",
+				"content": "Um dos aspectos ligados à violência doméstica é o seu impacto no mercado de trabalho para as mulheres. Para analisar melhor as relações complexas sobre esse tema, este estudo mostra que a violência doméstica afeta a capacidade laboral e a produtividade da mulher, bem como a sua autonomia e poder de decisão. Vale lembrar ainda que a esses fatores associam-se a outras desigualdades: diferenças salariais, acesso a empregos e à educação, oportunidades de tratamento de saúde, entre outras.",
+				"pdf": "/assets/downloads/relatorio_II.pdf"
+			},
+			{
+				"title": "RELATÓRIO EXECUTIVO III: PRIMEIRA ONDA – 2016",
+				"description": "Violência Doméstica, Violência na Gravidez e Transmissão entre Gerações",
+				"content": "Este relatório expõe uma compreensão mais aprofundada de questões ligadas à Transmissão Intergeracional da Violência Doméstica (TIVD), ou seja, a violência preexistente nos lares pode ter um efeito direto na manutenção da violência doméstica na vida de mulheres hoje. Isso significa também que esse mecanismo pode impactar as gerações futuras, levando à continuidade das agressões. <br /> Outro aspecto verificado a partir deste estudo é a predominância da violência doméstica durante a gravidez, fato que pode colocar em risco tanto a saúde da mãe quanto a da criança. Fatores socioeconômicos e étnicos foram considerados nas análises, trazendo, assim, traços mais específicos dessa violência.",
+				"pdf": "/assets/downloads/relatorio_III.pdf"
+			}
+		]
+	},
+	"bulletin":{
+		"title": "Boletim Trimestral de Conjuntura da Violência contra a Mulher no Ceará (CVCM)",
+		"description": "Diante da falta de estatísticas que considerem o recorte de gênero e suas especificidades quanto aos homicídios de mulheres e homens, bem como para que a comunidade científica e a sociedade em geral tenham acesso a esses dados, o Instituto Maria da Penha publica boletins trimestrais sobre a Conjuntura da Violência contra a Mulher no Ceará. <br /><br /> Realizados em parceria com o núcleo da Pesquisa de Condições Socioeconômicas e Violência Doméstica e Familiar contra a Mulher (PCSVDF<u>Mulher</u>) da Universidade Federal do Ceará (UFC), esses estudos contam com dados da Secretaria de Segurança Pública e Defesa Social (SSPDS) do Estado do Ceará e apresentam as estatísticas sobre os Crimes Violentos Letais e Intencionais (CVLI) contra a mulher no âmbito estadual e, especificamente, na cidade de Fortaleza.",
+		"data": [
+			{
+				"title": "BOLETIM TRIMESTRAL – JANEIRO-MARÇO 2018",
+				"content": "O Instituto Maria da Penha traz neste boletim uma análise conjuntural da violência letal de vítimas do sexo feminino e o seu crescimento em 2017 no Estado do Ceará, o qual aparece entre os 10 Estados brasileiros com as mais altas taxas de homicídios de mulheres. <br /> Além de divulgar estatísticas oficiais sobre o feminicídio, a publicação deste documento tem como objetivo colaborar com a sociedade no enfrentamento à violência de gênero.",
+				"pdf": "/assets/downloads/boletim_I_janeiro_marco.pdf"
+			},
+			{
+				"title": "BOLETIM TRIMESTRAL – ABRIL-JUNHO 2018",
+				"content": "Neste boletim, relativo ao segundo trimestre de 2018, nota-se a continuidade do que podemos chamar de “feminização” dos homicídios no Estado do Ceará. E um dos fatores associados ao número desproporcional de assassinatos de mulheres é a expansão do crime organizado. <br /> As chacinas cometidas por facções criminosas atingem de maneira significativa as mulheres, sobretudo jovens. Isso revela não só uma forte perspectiva de gênero das mortes, mas também evidencia disfunções nos mecanismos de proteção social e de segurança pública.",
+				"pdf": "/assets/downloads/boletim_II_abril_junho.pdf"
+			},
+			{
+				"title": "BOLETIM TRIMESTRAL – JULHO-SETEMBRO 2018",
+				"content": "Dando continuidade às publicações dos boletins trimestrais, o que figura no terceiro trimestre do ano são casos de feminicídio, levantando a reflexão sobre a forma como o Estado pensa e formula a sua atuação tanto na prevenção quanto no combate à violência contra a mulher. <br />Além disso, pensa-se na segurança pública e na reformulação de políticas públicas para o enfrentamento da violência de gênero, a fim de evitar o que se pode chamar de “mortes anunciadas” por um cruel ciclo da violência que, no limite, termina com a morte da vítima.",
+				"pdf": "/assets/downloads/boletim_III_julho_setembro.pdf"
+			}
+		]
+	},
+	"courses":{
+		"title": "cursos",
+		"description": "<p>O IMP acredita que a educação é capaz de transformar atitudes e pensamentos para combater o machismo e a violência doméstica contra a mulher. <br /><br /> Nesse sentido, os nossos cursos promovem uma reflexão sobre as desigualdades de gênero e uma ampla conscientização quanto aos alcances da <b>Lei Maria da Penha</b>.</p>",
+		"data": [
+			{
+				"title": "DEFENSORAS E DEFENSORES DOS DIREITOS À CIDADANIA (DDDC)",
+				"image": "/assets/hero/curso-dddc-hero.jpg",
+				"icon": "/assets/projects/hat-icon.png",
+				"href": "/projetos/curso-defensoras-e-defensores-dos-diretos-a-cidadania-DDDC.html"
+			}
+		]
+	},
+	"education":{
+		"title": "educação",
+		"description": "Está prevista na Lei Maria da Penha, art. 8º, inciso VIII, a promoção de programas educacionais com a perspectiva de gênero, raça e etnia para disseminar princípios de direitos humanos e valores éticos de respeito às pessoas. <br /><br /> Por isso, o IMP leva a escolas públicas projetos para divulgar a Lei Maria da Penha e contribuir para uma <b>educação não sexista</b>, buscando a construção social de valores antidiscriminatórios e fortalecendo o enfrentamento à violência doméstica e familiar contra a mulher.",
+		"data": [
+			{
+				"title": "PROJETO CONTEXTO: EDUCAÇÃO, GÊNERO, EMANCIPAÇÃO ",
+				"image": "/assets/hero/projeto-contexto-hero.jpg",
+				"icon": "/assets/projects/book-icon.png",
+				"href": "/projetos/projeto-contexto-educacao-genero-emancipacao.html"
+			},
+			{
+				"title": "PROJETO CORDEL NAS ESCOLAS ",
+				"image": "/assets/hero/projeto-cordel-hero.jpg",
+				"icon": "/assets/projects/book-icon.png",
+				"href": "/projetos/projeto-cordel-nas-escolas.html"
+			}
+		]
+	}
+}

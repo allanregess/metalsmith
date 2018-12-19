@@ -1,0 +1,80 @@
+header
+	background-color $light-gray
+	padding 8px 0
+
+	.container
+		align-items center
+		display flex
+		flex-flow wrap
+		justify-content space-between
+
+		+desktop()
+			flex-flow row
+
+	.logo-imp
+		img
+			max-width 100px
+
+			+desktop()
+				max-width 140px
+
+	.toggle-menu
+		+desktop()
+			display none
+
+	.main-menu
+		align-items center
+		display none
+		flex-flow column
+		width 100%
+
+		&.active
+			display flex
+			text-align center
+			align-items center
+
+			.btn-doe
+				display inline-block
+
+		+desktop()
+			display flex
+			justify-content space-between
+			flex-flow row
+
+		nav
+			display flex
+			flex-flow column
+			justify-content center
+			padding 10px
+			width 100%
+
+			a
+				font-family(roboto, medium)
+				border-bottom 1px solid alpha($black,  0.3)
+				color $black
+				font-size 16px
+				padding 15px 0
+				text-align center
+				text-decoration none
+
+				&:last-child
+					border-bottom none
+
+		.btn-doe
+			btn(type:primary)
+			display none
+
+		+desktop()
+			nav
+				flex-flow row
+
+				a
+					border-bottom 2px solid transparent
+					margin 0 10px
+					padding 5px 0
+
+					&:hover
+						border-bottom 2px solid $secondary-color
+
+			.btn-doe
+					display inline-block

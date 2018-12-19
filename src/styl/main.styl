@@ -1,0 +1,124 @@
+@import 'normalize-stylus'
+@import 'commons/variables'
+@import 'commons/mixins'
+@import 'commons/typography'
+
+//components
+@import 'sections/cam'
+@import 'sections/footer'
+@import 'sections/header'
+
+// PAGES
+@import 'pages/bio'
+@import 'pages/ciclo'
+@import 'pages/contato'
+@import 'pages/entrevista'
+@import 'pages/home'
+@import 'pages/lei'
+@import 'pages/projeto-interna'
+@import 'pages/projetos'
+@import 'pages/quem-somos'
+@import 'pages/servicos'
+@import 'pages/vio-domestica'
+@import 'pages/violencia'
+
+body
+	font-family(roboto)
+	margin: 0
+	padding: 0
+	font-size 16px
+	color black
+	background: $light-gray
+
+ul
+	margin 0
+	padding 0
+	list-style none
+
+.container
+	box-sizing border-box
+	margin 0 auto
+	padding 0 $gutter
+	width 100%
+	max-width "%s" % ($breakpoints.minTablet - 1)
+
+	+tablet()
+		max-width "%s" % ($breakpoints.minDesktop - 1)
+
+	+desktop()
+		max-width "%s" % ($breakpoints.minWide - 1)
+
+	+maxWide()
+		max-width "%s" % ($breakpoints.maxWide - 1)
+
+	&.container-bio
+		display flex
+		flex-flow row wrap
+		max-width 745px //685px + 60px (side gutters)
+
+		+desktop()
+			position relative
+
+		div
+			flex 1 auto
+			position relative
+
+			&:last-child
+				align-items flex-end
+				display flex
+				flex-flow column
+
+		p
+			line-height 1.7
+
+			+desktop()
+				font-size 18px
+				line-height 2
+				max-width 310px
+
+		h3
+			font-family(lato, black)
+			font-size 24px
+			line-height 1.6
+			text-transform uppercase
+
+			+desktop()
+				max-width 310px
+
+.default-btn
+	btn()
+
+.txt-copied
+	position fixed
+	bottom $gutter
+	left $gutter
+	background alpha($black, 0.9)
+	color $white
+	padding 15px 25px
+	z-index 9999
+
+.references
+	component-spacing()
+	background $white
+
+	.container
+		max-width 880px
+
+	h5,p
+		margin 0
+
+	h5
+		font-family(roboto, bold)
+		font-size 16px
+
+		+desktop()
+			font-size 18px
+
+	p
+		font-size 14px
+		line-height 1.8
+		padding-top 40px
+		word-break break-word
+
+		span
+			font-style italic

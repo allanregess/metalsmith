@@ -1,0 +1,51 @@
+{
+	"_template": "pages/entrevista.njk",
+	"pageTitle": "Entrevista com Maria da Penha - Instituto Maria da Penha",
+	"hero": {
+		"imagePath":"/assets/interview/hero-bg.png",
+		"title":"Entrevista com <span>Maria da Penha</span>",
+		"text":"Todos os dias, muitas pessoas procuram o IMP em busca de orientação e informação. Por isso, reunimos as dúvidas mais recorrentes para compartilhar com vocês.<span> E quem responde é a própria Maria da Penha.</span>"
+	},
+	"first_block":[
+		{
+			"question":"Como o seu caso foi reconhecido internacionalmente?",
+			"answer":"Decidi escrever o livro <i>Sobrevivi... posso contar</i> em 1994, logo após o primeiro julgamento do meu agressor, quando ele foi condenado, mas saiu do fórum em liberdade por conta de recursos dos advogados de defesa. Nesse momento, eu me senti órfã do Estado e decidi contar a minha história em um livro, pois se a Justiça não era capaz de condená-lo, os leitores poderiam fazer isso depois de lerem a minha história e os autos do processo. Foi assim que esse livro chegou às mãos de organizações não governamentais internacionais (CEJIL e CLADEM), que me perguntaram se eu aceitava denunciar o Estado brasileiro à Comissão Interamericana de Direitos Humanos da OEA. Fizemos a denúncia e, em 2001, o Brasil foi responsabilizado internacionalmente pela forma negligente com que tratava os casos de violência doméstica e “obrigado” a mudar as leis do País. Nessa época, estava sendo formado o ambiente de criação da Lei Maria da Penha, que foi sancionada em agosto de 2006.",
+			"quote":"Fizemos a denúncia e, em 2001, o Brasil foi <b>responsabilizado internacionalmente</b> pela forma negligente com que tratava os casos de violência doméstica e “obrigado” a mudar as leis do País."
+		},
+		{
+			"question":"Em que proporções a Lei Maria da Penha fez avançar as questões de segurança feminina?",
+			"answer":"A Lei Maria da Penha é uma ação afirmativa de enfrentamento a uma condição histórica de violência, discriminação e opressão das mulheres somente pelo fato de serem mulheres. Costumo dizer que a lei que leva o meu nome veio para resgatar a dignidade da mulher brasileira. Tenho viajado muito por todo o Brasil e posso dizer que, nos locais onde a lei está sendo verdadeiramente implementada, as mudanças são significativas, as denúncias aumentam e as reincidências diminuem. Quando dizemos que o número de denúncias cresceu, não significa que a violência contra a mulher também cresceu, mas, sim, que as mulheres se sentem mais seguras e respaldadas, acreditam no poder do Estado e, por isso, têm mais coragem de denunciar. Uma das maiores inovações da Lei Maria da Penha são as medidas protetivas de urgência, com o objetivo de assegurar a integridade das vítimas e fazer cessar de imediato a situação de violência para que esta não se agrave."
+		},
+		{
+			"question":"Passados mais de dez anos após a aprovação da Lei Maria da Penha, o que a senhora acha que poderia ter sido feito de modo diferente? Existe algum dispositivo que deveria ser “atualizado” ou revisto? Qual aspecto da lei está sendo mais difícil de implementar na prática?",
+			"answer":"A Lei Maria da Penha é muito completa. Tanto que é considerada pela ONU como uma das três leis mais avançadas do mundo no que diz respeito ao combate e enfrentamento à violência doméstica e familiar contra a mulher. Quando ainda era um projeto de lei, foram feitas várias audiências públicas por todo o Brasil para que fosse discutida a situação da mulher, levando-se em consideração as diferenças territoriais e culturais de um país de tão grandes proporções como o Brasil. Esse debate envolveu o Executivo, Legislativo e a sociedade civil. No nosso entendimento, a lei não precisa de reformas. O que deve acontecer é a correta aplicabilidade da Lei Maria da Penha, o compromisso do gestor público com a implementação dos equipamentos previstos na lei e a capacitação de todos os profissionais que atuam na rede de atendimento à mulher."
+		},
+		{
+			"question":"Desde que a lei entrou em vigor, houve uma redução de 10% nos casos de violência contra a mulher. O que ainda é necessário para essa redução ser maior? ",
+			"answer":"É necessário que existam em todos os municípios com mais de 60 mil habitantes as políticas públicas que atendem a Lei Maria da Penha, como a Delegacia Especial de Atendimento à Mulher, o Centro de Referência de Atendimento à Mulher, o Juizado de Violência Doméstica e Familiar contra a Mulher, a Casa-abrigo, entre outros. Porém, sabemos que isso depende muito de vontade política e da sensibilização dos gestores públicos em relação à causa. Existem dados que comprovam que, nos locais onde existem políticas públicas para acolher as mulheres em situação de violência, o número de denúncias aumentou e o de reincidências diminuiu. Precisamos nos unir e cobrar dos gestores públicos que a Lei Maria da Penha seja verdadeiramente implementada."
+		}
+	],
+	"second_block":{
+		"question": "Segundo pesquisas recentes, muitas pessoas, infelizmente, ainda acham que apenas a violência física é considerada violência doméstica. Na sua opinião, a falta de conhecimento acerca da lei é um fator significativo para que as agressões contra as mulheres continuem acontecendo? E para que as próprias mulheres não se reconheçam dentro de um relacionamento abusivo?",
+		"answer": "Sim, mas sabemos que essa realidade vem mudando. Hoje, as mulheres já conhecem mais sobre a violência doméstica, os tipos de violência, seus vários aspectos e o que a Lei Maria da Penha pode fazer por elas. Por isso é tão importante o papel da imprensa na divulgação da Lei Maria da Penha, bem como o trabalho das universidades, escolas e todas as esferas institucionais, pois sabemos que somente por meio da educação poderemos ter, a longo prazo, uma sociedade menos machista e mais igualitária. Muito ainda deve ser feito. E a mudança cultural precisa de mais tempo para acontecer.",
+		"quote": "Por isso é tão importante o papel da imprensa na divulgação da Lei Maria da Penha, bem como o trabalho das universidades, escolas e todas as esferas institucionais, pois sabemos que somente por meio da educação poderemos ter, a longo prazo,<br> <span>uma sociedade menos machista e mais igualitária.</span>"
+	},
+	"third_block":[
+		{
+			"question":"Mesmo com uma lei que protege as mulheres e com uma rede de atendimento para ajudá-las, por que elas aguentam a violência doméstica por tanto tempo?",
+			"answer":"Vários são os fatores que fazem com que as mulheres suportem por muitos anos a situação de violência: o medo do agressor, a dependência financeira ou emocional, o medo de não conseguir criar os filhos sozinhas, a vergonha de dizer aos familiares e amigos que sofrem agressão do marido, a falta de conhecimento da Lei Maria da Penha e do que a lei pode fazer por elas etc. Mas sabemos que o maior entrave ainda é a falta de equipamentos que atendem a lei, os quais só existem nas grandes cidades e nas capitais. Por isso é tão importante nos unirmos enquanto sociedade civil e pressionar o poder público para a criação das políticas públicas previstas na Lei Maria da Penha."
+		},
+		{
+			"question":"Na sua opinião, o fato de ter um trabalho independente e ensino superior foi importante para a senhora compreender com mais clareza que precisava denunciar a violência que sofria?",
+			"answer":"Primeiro, é preciso ressaltar que a violência doméstica é um fenômeno que atinge todas as mulheres, independentemente de classe social, idade, raça, etnia, renda, religião, nível cultural e escolaridade. Mesmo tendo um trabalho e ensino superior, eu vivi em situação de violência por muitos anos, de 1976 a 1983. Além disso, é importante que se diga que nessa época nem sequer existia Delegacia da Mulher em Fortaleza, minha cidade. Ou seja, era ainda mais difícil para uma mulher romper o ciclo da violência. Hoje temos uma lei específica para proteger as mulheres desse crime. No meu caso, eu não desisti de buscar a justiça. Lutei por 19 anos e seis meses para que meu agressor fosse punido, e isso só aconteceu devido a pressões internacionais. O mais importante é o fato de que, ao final, a conquista não foi só minha, mas de todas as mulheres do País."
+		},
+		{
+			"question":"Muitas mulheres, quando vão denunciar, se sentem desrespeitadas e humilhadas nas Delegacias de Polícia e até mesmo nas Delegacias da Mulher, ou seja, em espaços que deveriam estar preparados para acolher a mulher em situação de violência e acionar a Lei Maria da Penha. O que pode ser feito em relação a essa realidade ainda hoje existente no País?",
+			"answer":"Infelizmente, sabemos que as mulheres que decidem denunciar ainda têm que passar, muitas vezes, pela violência institucional. Acreditamos que isso acontece devido a vários motivos, como a falta de capacitação e sensibilidade em relação à violência de gênero, o reduzido número de profissionais e o déficit na estrutura física e humana desses órgãos de uma forma geral. Nesse sentido, a maior necessidade é a capacitação dos profissionais da segurança pública, principalmente daqueles que são responsáveis pelo atendimento à mulher, pois eles devem atuar de acordo com o que é previsto em lei, e não conforme as suas motivações pessoais, que muitas vezes são machistas e vitimizam outra vez a mulher."
+		},
+		{
+			"question":"Que mensagem a senhora gostaria de deixar para as mulheres que sofrem violência doméstica hoje?",
+			"answer":"Sabemos que sair de um ciclo de violência é um processo difícil e doloroso, mas não estamos mais sozinhas. Não precisamos mais sofrer durante anos em silêncio, suportando todos os tipos de violência dentro do nosso próprio lar, lugar onde deveríamos ser acolhidas e amparadas. Eu nunca imaginei que a minha luta, que começou com muita dor e sofrimento, chegasse aonde chegou. Ter o meu nome batizando uma lei que pode salvar vidas e proporcionar novos recomeços a milhares de mulheres é, para mim, uma honra, mas também uma grande responsabilidade; por isso, não me permito parar. Tenho consciência da minha missão, e a minha vida é toda dedicada a essa causa. Seguimos unidas."
+		}
+	]
+}

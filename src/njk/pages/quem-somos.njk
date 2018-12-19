@@ -1,0 +1,146 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+	<div class="hero-about-us">
+		<div class="hero-img-bg">
+			<img src="{{ root(hero.imagePath) }}" alt="" />
+			<div class="container">
+					<h1>{{ hero.title | safe }}</h1>
+					<p>{{ hero.description | safe }}</p>
+			</div>
+		</div>
+		<div class="container">
+			<p class="hero-content">{{ hero.content | safe }}</p>
+		</div>
+	</div>
+
+	<div class="imp-acting">
+		<div class="container">
+			<p>Além disso, como uma entidade disposta a apoiar a sociedade nas questões de gênero, o instituto também atua para:</p>
+			<div>
+				<ul>
+					<li>Promover e apoiar ações sociais que elevem o nível de qualidade da vida física, emocional e intelectual das mulheres.</li>
+					<li>Contribuir para diminuir as ações de indiferença, banalização e omissão nas questões de gênero, as quais reforçam a cultura da violência contra a mulher.</li>
+					<li>Desenvolver um trabalho estratégico de conscientização sobre os conceitos ligados à cultura de gênero e violência sexista, bem como incentivar o debate para promoção de investimento social capaz de garantir os direitos de cidadania, justiça, trabalho, emprego e geração de renda da mulher e da família.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="vision-mission-values">
+		<div class="container">
+			<div>
+				<div><img src="{{ root(vision.icon) }}" alt=""></div>
+				<h5>{{ vision.title }}</h5>
+				<p>{{ vision.description | safe }}</p>
+			</div>
+			<div>
+				<div><img src="{{ root(mission.icon) }}" alt=""></div>
+				<h5>{{ mission.title }}</h5>
+				<p>{{ mission.description | safe }}</p>
+			</div>
+			<div>
+				<div><img src="{{ root(values.icon) }}" alt=""></div>
+				<h5>{{ values.title }}</h5>
+				<ul>
+					{% for value in values.list %}
+						<li><span>&#9679;</span> {{ value }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="directors-board-header">
+		<div class="container">
+			<h3>Quem faz parte dessa história</h3>
+			<p>A gente também tem uma rede de enfrentamento à violência doméstica contra a mulher aqui no IMP. São muitas pessoas engajadas, que acreditam no poder da informação e se dedicam diariamente para multiplicar a luta por uma sociedade mais justa, sem discriminação ou violência.</p>
+		</div>
+	</div>
+	<div class="directors-board-content">
+		<div class="container">
+			<div class="pictures">
+				<div>
+					<img src="{{ root('/assets/partners/maria-da-penha.png') }}" alt="">
+					<p>Maria da Penha<br><span>Fundadora e presidente vitalícia</span></p>
+				</div>
+				<div>
+					<img src="{{ root('/assets/partners/conceicao-de-maria.png') }}" alt="">
+					<p>Conceição de Maria <br><span>Cofundadora e superintendente-geral</span></p>
+					<a href="mailto:ceci@institutomariadapenha.org.br" target="_blank">ceci@institutomariadapenha.org.br</a>
+				</div>
+				<div>
+					<img src="{{ root('/assets/partners/gleucia-muniz.png') }}" alt="">
+					<p>Gléucia Muniz<br><span>Secretária</span></p>
+					<a href="mailto:atendimento@institutomariadapenha.org.br" target="_blank">atendimento@institutomariadapenha.org.br</a>
+				</div>
+				<div>
+					<img src="{{ root('/assets/partners/gleucia-muniz.png') }}" alt="">
+					<p>Daniel Luis<br><span>Tesoureiro</span></p>
+				</div>
+				<div>
+					<img src="{{ root('/assets/partners/gleucia-muniz.png') }}" alt="">
+					<p>Regina Celia<br><span>Vice Presidente</span></p>
+				</div>
+				<div>
+					<img src="{{ root('/assets/partners/gleucia-muniz.png') }}" alt="">
+					<p>Viviane Fernandes<br><span>Secretária executiva</span></p>
+				</div>
+			</div>
+
+			<div class="members">
+				<div>
+					<p class="title">Diretoria Executiva</p>
+					<p class="subtitlle">Mandato 2018-2022</p>
+					<p class="team-members"><b>Regina Célia Almeida Silva Barbosa</b> <br><span>Cofundadora e vice-presidente</span></p>
+					<p class="team-members"><b>Daniel Luís Lima Pereira</b> <br><span>Cofundador e tesoureiro</span></p>
+					<p class="team-members"><b>Viviane Fernandes Lima</b> <br><span>Cofundadora e secretária-geral</span></p>
+				</div>
+				<div>
+					<p class="title">Conselho Fiscal</p>
+					<p class="subtitlle">Mandato 2018-2022</p>
+					<p class="team-members"><b>Titular: </b>Oneide Braga de Carvalho <br><b>Suplente: </b>Clodomir Santa Cruz de Carvalho Filho</p>
+					<p class="team-members"><b>Titular: </b>Valéria Maia Fernandes <br><b>Suplente: </b>Luzia Antunes de Araujo Skellie</p>
+					<p class="team-members"><b>Titular: </b>Ronaldo Castro Aguiar <br><b>Suplente: </b>Maria de Nasaré Oliveira Jucá </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="be-a-partner">
+		<div class="container">
+			<img class="join-icon" src="{{ root('/assets/be-a-partner.png') }}" alt="">
+			<div class="content-box">
+				<div>
+					<h3><span>Quer ser um parceiro do IMP?</span></h3>
+					<p>Ao longo desses anos, muitas parcerias vêm ajudando o Instituto Maria da Penha, seja por financiamentos ou apoio técnico, a tornar os nossos projetos uma realidade.</p>
+				</div>
+				<div>
+					<p class="mail">Envie um e-mail para: <br> <a href="mailto:atendimento@institutomariadapenha.org.br" target="_blank">atendimento@institutomariadapenha.org.br</a></p>
+					<p> E faça parte da nossa rede de enfretamento à violência contra a mulher.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="our-partners">
+		<div class="container">
+			<h3>CONHEÇA OS NOSSOS PARCEIROS INSTITUCIONAIS</h3>
+			<ul>
+				{% for item in partners %}
+					<li>
+						<img src="{{ root(item.logoImg) }}" alt="">
+						<p>{{ item.title | safe }}</p>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+	{% include "partials/cam.njk" %}
+
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

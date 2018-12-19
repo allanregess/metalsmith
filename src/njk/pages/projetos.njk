@@ -1,0 +1,129 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+	<div class="projects">
+		<div class="hero-projects">
+			<div class="hero-img-bg">
+				<img src="{{ root(hero.imagePath) }}" alt="" />
+				<div class="container">
+						<h1>{{ hero.title | safe }}</h1>
+						<p>{{ hero.description | safe }}</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="projects-container container">
+
+			<div class="text-box">
+				<h2>{{ projects.title | safe }}</h2>
+				<p class="description">{{ projects.description | safe }}</p>
+			</div>
+
+			<div class="text-box">
+				<h5>{{ projects.detailsTitle | safe }}</h5>
+				<div class="description">
+					<p class="view-more">{{ projects.details | safe }}</p>
+					<span class="more" tabindex="0">+ ler mais</span>
+				</div>
+			</div>
+
+			<div class="content">
+				<img class="bg" src="{{ root('/assets/projects/projects-bg.jpg') }}" />
+				{% for item in projects.data %}
+					<div class="projects-box">
+						<h5>{{ item.title | safe }}</h5>
+						<p class="description">{{ item.description | safe }}</p>
+						<p class="content">{{ item.content | safe }}</p>
+						<span class="more" tabindex="0">+ ler mais</span>
+						<a class="download-btn" href="{{ root(item.pdf) }}" target="_blank">fazer download</a>
+						<a class="copy-btn" data-copy="{{ root(item.pdf) }}" href="#" title="">copiar link</a>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="bulletin-container container">
+			<div class="text-box">
+				<h5>{{ bulletin.title | safe }}</h5>
+				<div class="description">
+					<p class="view-more">{{ bulletin.description | safe }}</p>
+					<span class="more" tabindex="0">+ ler mais</span>
+				</div>
+			</div>
+			<div class="content">
+				<img class="bg" src="{{ root('/assets/projects/projects-bg.jpg') }}" />
+				{% for item in bulletin.data %}
+					<div class="projects-box">
+						<h5>{{ item.title | safe }}</h5>
+						<p class="content">{{ item.content | safe }}</p>
+						<span class="more" tabindex="0">+ ler mais</span>
+						<a class="download-btn" href="{{ root(item.pdf) }}" title="">fazer download</a>
+						<a class="copy-btn" data-copy="{{ root(item.pdf) }}" href="#" title="">copiar link</a>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="courses-container gray-bg">
+			<div class="container">
+				<div class="text-box">
+					<h2>{{ courses.title | safe }}</h2>
+					<div class="description">
+						<p>{{ courses.description | safe }}</p>
+					</div>
+				</div>
+
+				<div class="content">
+					{% for item in courses.data %}
+						<div class="course-box">
+							<div class="background">
+								<div class="blur-image" style="background-image: url('{{ root(item.image) }}')"></div>
+							</div>
+							<div class="content-wrapper">
+								<div class="image" style="background-image: url('{{ root(item.image) }}')"></div>
+								<img src="{{item.icon}}" class="icon" />
+								<h5>{{ item.title | safe }}</h5>
+								<a class="arrow-btn" href="{{ root(item.href) }}" title="">conheça o curso</a>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+
+		</div>
+
+		<div class="education-container container">
+
+			<div class="text-box">
+				<h2>{{ education.title | safe }}</h2>
+				<div class="description">
+					<p>{{education.description | safe }}</p>
+				</div>
+			</div>
+
+			<div class="content">
+				{% for item in education.data %}
+					<div class="course-box">
+						<div class="background">
+							<div class="blur-image" style="background-image: url('{{ root(item.image) }}')">'</div>
+						</div>
+						<div class="content-wrapper">
+							<div class="image" style="background-image: url('{{ root(item.image) }}')"></div>
+							<img src="{{item.icon}}" class="icon" />
+							<h5>{{ item.title | safe }}</h5>
+							<a class="arrow-btn" href="{{ root(item.href) }}" title="">conheça o projeto</a>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+
+		</div>
+
+	</div>
+
+	{% include "partials/cam.njk" %}
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+	<div class="hero-domestic-violence">
+		<img src="{{ root(hero.imagePath) }}" alt="" />
+		<div class="container">
+			<h1>{{ hero.title | safe }}</h1>
+			<p>{{ hero.description | safe }}</p>
+		</div>
+	</div>
+
+	<div class="questions-wrapper">
+		<div class="container">
+			<h2 class="domestic-violence-title">Mitos da violência doméstica</h2>
+			{% for item in miths %}
+				<div class="questions">
+					<div class="icon"><span>{{ loop.index }}.</span></div>
+					<h3>"{{ item.title | safe }}"</h3>
+					<p>{{ item.text | safe }}</p>
+					<span class="more">+ ler mais</span>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+
+	<div class="get-help">
+		<div class="container">
+			<h2 class="domestic-violence-title">{{ get_help.title }}</h2>
+			<p>
+				{{ get_help.description | safe }}
+				<br><br>
+				<span>{{ get_help.bottom }}</span>
+			</p>
+		</div>
+	</div>
+
+	<div class="references">
+		<div class="container">
+			<h5>{{ references.title | safe }}</h5>
+			<p>{{ references.text | safe }}</p>
+		</div>
+	</div>
+
+	{% include "partials/cam.njk" %}
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

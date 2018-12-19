@@ -1,0 +1,68 @@
+{
+	"_template": "pages/servicos.njk",
+	"pageTitle": "Serviços - Instituto Maria da Penha",
+	"hero": {
+		"title":"SERVIÇOS IMP",
+		"description":"Os nossos workshops, consultorias, cursos de capacitação e palestras visam levar a empresas, instituições públicas e sociedade em geral um conteúdo abrangente sobre a Lei Maria da Penha, além de mecanismos importantes para prevenir, enfrentar e combater a violência doméstica e familiar contra a mulher.",
+		"imagePath":"/assets/hero/hero-projects-services.png"
+	},
+	"workshops":{
+		"title": "workshop",
+		"description": "<p>O workshop oferecido pelo Instituto Maria da Penha busca desenvolver ações de sensibilização e conscientização sobre o enfrentamento à violência contra a mulher em instituições públicas e privadas. Além disso, contribui para a diminuição do impacto da violência doméstica no mercado de trabalho, seja quando se trata da vida laborativa da mulher ou da produtividade da empresa.</p>",
+		"data": [
+			{
+				"title": "VIOLÊNCIA DOMÉSTICA E SEU IMPACTO NO MERCADO DE TRABALHO",
+				"image": "/assets/hero/workshop-vio-dom-hero.jpg",
+				"icon": "/assets/projects/project-icon.png",
+				"href": "/servicos/workshop-violencia-domestica-e-seu-impacto-no-mercado-de-trabalho.html",
+				"label": "conheça o workshop"
+			}
+		]
+	},
+	"consultancy":{
+		"title": "consultoria",
+		"description": "<p>Implementar um Comitê da Mulher nas empresas faz parte das nossas ações para criar, dentro do ambiente de trabalho, medidas que ajudem a identificar colaboradoras em situação de violência doméstica e como isso está impactando o seu desempenho. Além de atuar no combate à violência de gênero, os gestores contribuem para a melhoria do clima organizacional e dos índices de produtividade da empresa.</p>",
+		"data": [
+			{
+				"title": " IMPLEMENTAÇÃO DO COMITÊ DA MULHER NA EMPRESA ",
+				"image": "/assets/hero/comite-mulher-hero.jpg",
+				"icon": "/assets/projects/people-icon.png",
+				"href": "/servicos/consultoria-implementacao-do-comite-da-mulher-na-empresa.html",
+				"label": "conheça a consultoria"
+			}
+		]
+	},
+	"talks":{
+		"title": "palestras",
+		"description": "<p>Estas palestras procuram levar dados e análises sobre as nossas pesquisas aos mais diversos públicos, além de informações sobre o ciclo da violência, a Lei n. 11.340/2006, a história de Maria da Penha e o papel do IMP no combate à violência doméstica e familiar contra a mulher.</p>",
+		"data": [
+			{
+				"title": "PALESTRA DO INSTITUTO MARIA DA PENHA",
+				"image": "/assets/hero/palestra-instituto-hero.jpg",
+				"icon": "/assets/projects/group-icon.png",
+				"href": "/servicos/palestra-do-instituto-maria-da-penha.html",
+				"label": "contrate a palestra"
+			},
+			{
+				"title": "PALESTRA DA MARIA DA PENHA",
+				"image": "/assets/hero/palestra-maria-hero.jpg",
+				"icon": "/assets/projects/group-icon.png",
+				"href": "/servicos/palestra-da-maria-da-penha.html",
+				"label": "contrate a palestra"
+			}
+		]
+	},
+	"courses":{
+		"title": "cursos de capacitação",
+		"description": "<p>Para fortalecer a rede de atenção à mulher em todo o País, o IMP oferece cursos de capacitação e formação de profissionais de diferentes áreas. Isso permite uma atuação articulada entre os mais diversos setores da vida social no sentido de prevenir e combater a violência doméstica e familiar contra a mulher.</p>",
+		"data": [
+			{
+				"title": "PROGRAMA DEFENSORAS E DEFENSORES DOS DIREITOS À CIDADANIA (DDDC) ",
+				"image": "/assets/hero/programa-dddc-hero.jpg",
+				"icon": "/assets/projects/hat-icon.png",
+				"href": "/servicos/cursos-de-capacitacao-defensoras-e-defensores-dos-direitos-a-cidadania-DDDC.html",
+				"label": "conheça o curso"
+			}
+		]
+	}
+}

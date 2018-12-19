@@ -1,0 +1,421 @@
+.hero-violence
+	background-color $white
+	overflow hidden
+	position relative
+	width 100%
+
+	.first-block
+		arrow-bottom()
+		display flex
+		flex-direction column
+		justify-content center
+		position relative
+
+		+desktop()
+			height calc(100vh - 89px) !important
+
+		h1
+			font-family(lato, black)
+			color $secondary-color
+			font-size 24px
+			margin 0 auto
+			max-width 140px
+			line-height 1.4
+			position relative
+			text-align center
+			z-index 2
+
+			+tablet()
+				font-size 60px
+				max-width 340px
+
+		p
+			font-family(roboto)
+			font-size 16px
+			text-align center
+			line-height 1.9
+			margin 0 auto
+			max-width 230px
+			padding-top $gutter
+			position relative
+			z-index 2
+
+			+tablet()
+				font-size 22px
+				line-height 1.5
+				max-width 640px
+
+		.bg
+			left 50%
+			position absolute
+			top 50%
+			transform translate(-50%, -50%)
+			max-width 700px
+
+			+tablet()
+				max-width none
+
+	.bottom-text
+		component-spacing()
+		display flex
+		flex-direction column
+		position relative
+		z-index 2
+
+		+tablet()
+			flex-direction row
+
+		.left
+			+tablet()
+				flex-basis 50%
+
+			p
+				font-family(roboto)
+				font-size 16px
+				line-height 1.8
+				margin 0 auto
+
+				+tablet()
+					font-size 18px
+					max-width 90%
+					padding-top 20px
+
+				+desktop()
+					max-width 460px
+
+		.right
+			padding-top $gutter * 2
+
+			+tablet()
+				flex-basis 50%
+				padding-top 0
+
+			p,
+			cite
+				color $secondary-color
+				font-size 18px
+				line-height 1.6
+				margin 0 auto
+
+				+tablet()
+					max-width 330px
+
+			p
+				quotes()
+				font-family(roboto, bold)
+
+			cite
+				display block
+				font-style italic
+				padding-top 75px
+
+				span
+					background-color $tertiary-color
+					display inline-block
+					height 2px
+					margin-right 10px
+					width 75px
+
+.list-violence
+	.content
+		component-spacing()
+		background-image url('/assets/violence/bg-violence.svg')
+		background-position-x 30px
+		background-repeat repeat-y
+		display flex
+		flex-direction column
+		padding-left 60px
+		position relative
+		z-index 1
+
+		+tablet()
+			padding-left 80px
+
+		+desktop()
+			background-position center
+			flex-direction row
+			padding-left 0
+
+		.icon
+			font-family(lato)
+			align-items center
+			background $secondary-color
+			border 10px solid $light-gray
+			border-radius 100%
+			box-sizing border-box
+			color $white
+			display flex
+			font-size 30px
+			height 77px
+			justify-content center
+			left -5px
+			position absolute
+			top 50px
+			width 77px
+
+			+desktop()
+				height 125px
+				font-size 50px
+				left calc(50% - 62px)
+				margin-top 110px
+				top 0
+				width 125px
+
+			&:before
+				background $secondary-color
+				content ''
+				height 3px
+				left 70px
+				position absolute
+				width 130px
+
+				+desktop()
+					left -130px
+					width 120px
+
+			&:after
+				background $secondary-color
+				border-radius 100%
+				content ''
+				height 15px
+				left 200px
+				position absolute
+				top 50%
+				transform translateY(-50%)
+				width 15px
+
+				+desktop()
+					left -145px
+
+			span
+				background $light-gray
+				border-radius 100%
+				content ''
+				height 65px
+				left 50%
+				position absolute
+				top 50%
+				transform translate(-50%, -50%)
+				width 65px
+				z-index -1
+
+				+desktop()
+					height 113px
+					width 113px
+
+				&:before
+					content ''
+					background $secondary-color
+					border-radius 100%
+					height 83px
+					left 50%
+					position absolute
+					top 50%
+					transform translate(-50%, -50%)
+					width 83px
+					z-index -1
+
+					+desktop()
+						height 131px
+						width 131px
+
+		.text
+			+desktop()
+				align-items center
+				display flex
+				flex-basis 50%
+				flex-direction column
+
+			h2
+				color $secondary-color
+				margin 0
+				font-size 24px
+				line-height 1.8
+				max-width 100px
+				padding-top 60px
+				text-decoration underline
+				text-transform uppercase
+
+				+desktop()
+					font-size 40px
+					line-height 1.4
+					max-width 200px
+					padding-top 0
+					transform translateX(-70px)
+			p
+				font-size 18px
+				line-height 1.5
+
+				+desktop()
+					max-width 340px
+
+		.list
+			+desktop()
+				display flex
+				flex-basis 50%
+				padding-top 130px
+				justify-content center
+
+			ul
+				li
+					font-family(roboto, bold)
+					color $secondary-color
+					font-size 16px
+					line-height 1.7
+					margin-top 15px
+					padding-left 23px
+					padding-top 5px
+					position relative
+					text-transform uppercase
+
+					+desktop()
+						font-size 18px
+						max-width 300px
+
+					+wide()
+						max-width 450px
+
+					&:before
+						content ''
+						border 1px solid $tertiary-color
+						border-width 0 0 2px 2px
+						font-size 0
+						height 8px
+						left -5px
+						line-height 0
+						position absolute
+						transform rotate(-135deg)
+						top 13px
+						width 8px
+
+.culture-violence
+	component-spacing()
+	background url('/assets/violence/bg-ondas.jpg') center / cover no-repeat
+
+	.hero
+		text-align center
+
+		h2
+			font-family(lato, black)
+			color $white
+			font-size 24px
+			line-height 1.4
+			margin 0 auto
+			max-width 300px
+			text-decoration underline
+			text-transform uppercase
+
+			+tablet()
+				font-size 40px
+				max-width 480px
+
+		p
+			color $white
+			font-size 18px
+			line-height 1.5
+			margin 0 auto
+			padding-top 50px
+
+			+tablet()
+				max-width 420px
+
+
+	.main
+		padding-top 80px
+
+		+tablet()
+			padding-top 60px
+
+		img
+			display block
+			margin 0 auto
+			max-width 100%
+
+		.text-block
+			display flex
+			flex-direction column
+			padding-top 55px
+
+			+tablet()
+				flex-direction row
+				padding-top 35px
+
+			.left
+				display flex
+				flex-basis 100%
+				justify-content flex-end
+
+				+tablet()
+					flex-basis 50%
+
+				p
+					color $white
+					display inline-block
+					font-size 18px
+					line-height 2
+
+					+tablet()
+						max-width 310px
+
+			.right
+				flex-basis 100%
+				padding 0 20px
+
+				+tablet()
+					flex-basis 50%
+					padding 0 0 0 70px
+
+				p
+					+desktop()
+						max-width 330px
+
+					span
+						font-family(roboto, bold)
+						background-color $white
+						box-shadow 20px 0 0 $white, -20px 0 0 $white
+						color $secondary-color
+						font-size 18px
+						line-height 2.2
+						padding 7px 0 5px
+
+	.bottom
+		margin-top 100px
+
+		+tablet()
+			display block
+			margin 150px auto 0
+			max-width 660px
+
+		p
+			quotes()
+			font-size 18px
+			color $white
+			line-height 1.5
+			padding-left 15px
+
+			span
+				font-family(roboto, bold)
+				color $tertiary-color
+				display block
+				font-size 40px
+				line-height 1.3
+				margin 10px 0
+
+		cite
+			color $white
+			display inline-block
+			font-size 18px
+			font-style normal
+			line-height 1.5
+			margin-top 75px
+			padding-left 85px
+			position relative
+
+			&:before
+				content ''
+				background-color $tertiary-color
+				height 2px
+				position absolute
+				left 0
+				top 10px
+				width 75px

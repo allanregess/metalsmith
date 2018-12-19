@@ -1,0 +1,410 @@
+.hero-ciclo
+	overflow hidden
+	position relative
+	width 100%
+
+	.first-block
+		arrow-bottom()
+		position relative
+
+		+tablet()
+			height calc(100vh - 89px) !important
+
+		h1
+			color $secondary-color
+			font-family(lato, black)
+			font-size 24px
+			line-height 1.4
+			margin 0 auto
+			max-width 240px
+			padding-top 20px
+			position relative
+			text-align center
+			z-index 2
+
+			+tablet()
+				font-size 60px
+				max-width 410px
+				padding-top 5%
+
+		p
+			font-family(roboto)
+			font-size 16px
+			line-height 1.9
+			margin 0 auto
+			max-width 200px
+			padding-top 30px
+			position relative
+			text-align center
+			z-index 2
+
+			+tablet()
+				font-size 22px
+				line-height 1.5
+				max-width 400px
+
+		.bg
+			left 50%
+			max-width 400px
+			position absolute
+			top 0
+			transform translateX(-50%)
+
+			+tablet()
+				max-height calc(90vh - 130px)
+				max-width none
+
+	.bottom-text
+		font-family(roboto, bold)
+		font-size 16px
+		line-height 1.7
+		padding 65px 0
+		text-align center
+
+		+tablet()
+			font-size 18px
+			margin 0 auto
+			max-width 650px
+
+// Fase 1
+.cicles
+	component-spacing()
+	background-color $white
+	position relative
+
+	.phases
+		+desktop()
+			display flex
+
+		.background
+			margin-bottom 55vw
+			text-align right
+
+			+tablet()
+				text-align center
+
+			+desktop()
+				margin-bottom 0
+				padding-right $gutter
+				text-align right
+				width 50%
+
+			+wide()
+				text-align center
+
+			p
+				display inline-block
+				position relative
+				max-width 125px
+				text-align left
+				z-index 2
+
+				span
+					font-family(roboto, medium)
+					background-color $secondary-color
+					box-shadow 20px 0 0 $secondary-color, -20px 0 0 $secondary-color
+					color $white
+					font-size 16px
+					line-height 2.2
+					padding 7px 0 5px
+
+					+desktop()
+						box-shadow 25px 0 0 $secondary-color, -25px 0 0 $secondary-color
+						font-size 22px
+						padding 10px 0 8px
+
+			img
+				left 0
+				max-width 50%
+				position absolute
+				top 100px
+
+				+desktop()
+					max-width 40%
+
+				+maxWide()
+					max-width none
+
+		.text
+
+			+desktop()
+				display flex
+				flex-direction column
+				justify-content center
+				width 50%
+
+			span
+				font-family(roboto)
+				font-size 18px
+				line-height 1.5
+				margin 0
+
+			h2
+				font-family(lato, black)
+				color $secondary-color
+				font-size 24px
+				line-height 1.4
+				max-width 410px
+				text-decoration underline
+
+				+desktop()
+					font-size 40px
+
+			p
+				font-family(roboto)
+				font-size 16px
+				line-height 2
+
+				+tablet()
+					font-size 18px
+
+	// Fase 2
+	&.part2
+		background-color $light-gray
+
+		.cicle2
+			+desktop()
+				flex-direction row-reverse
+
+			.background
+				text-align left
+
+				+tablet()
+					text-align center
+
+				+desktop()
+					text-align left
+
+				+wide()
+					text-align center
+
+				img
+					left auto
+					padding-right 0
+					right 0
+
+				+desktop()
+					padding-left $gutter
+					padding-right 0
+
+				p
+					padding-left $gutter
+					padding-right 0
+
+					span
+						background-color $primary-color
+						box-shadow 25px 0 0 $primary-color, -25px 0 0 $primary-color
+
+						+desktop()
+							box-shadow 25px 0 0 $primary-color, -25px 0 0 $primary-color
+
+	// Fase 3
+	&.part3
+		.cicle3
+			.background
+				p
+					span
+						background-color $tertiary-color
+						box-shadow 25px 0 0 $tertiary-color, -25px 0 0 $tertiary-color
+
+						+desktop()
+							box-shadow 25px 0 0 $tertiary-color, -25px 0 0 $tertiary-color
+
+
+// QUEBRE O CICLO
+.cycle-break
+	component-spacing()
+
+	h3
+		font-family(lato, black)
+		color $secondary-color
+		font-size 24px
+		line-height 1.5
+		margin 0 auto
+		max-width 675px
+		text-align center
+		text-transform uppercase
+
+	.description
+		line-height 1.8
+		margin $gutter auto 0
+		max-width 815px
+		text-align center
+
+		+tablet()
+			font-size 18px
+
+	.content
+		display flex
+		flex-flow column
+		justify-content space-between
+		margin 0 auto
+
+		+tablet()
+			flex-flow row
+			max-width 750px
+
+		> div
+			background-image url('/assets/icons/megaphone-icon.png')
+			background-position 0 0
+			background-repeat no-repeat
+			padding-top 55px
+			margin-top 70px
+
+			&:last-child
+				background-image url('/assets/icons/ciclo-icon.png')
+
+			+tablet()
+				margin-top 90px
+				padding-top 85px
+				max-width 310px
+
+			h4
+				font-family(lato, black)
+				color $secondary-color
+				font-size 22px
+				text-transform uppercase
+				+tablet()
+					font-size 24px
+
+			p
+				font-size 16px
+				line-height 2
+				margin-bottom 0
+				+tablet()
+					font-size 18px
+
+// Compartilhe
+.cycle-share
+	component-spacing()
+	background $white
+
+	.content
+		align-items center
+		display flex
+		flex-flow column
+		justify-content space-around
+
+		+desktop()
+			flex-flow row
+
+	.cycle-img
+		background url('/assets/ciclo/cycle-share.jpg') center / contain no-repeat
+		display flex
+		flex-flow row-reverse
+		flex-grow 2
+		justify-content space-between
+		max-width 800px
+		min-height 450px
+		width 100%
+
+		+tablet()
+			min-height 625px
+			padding-top 70px
+
+		p
+			font-family(roboto, medium)
+			margin-left 20px
+			max-width 140px
+			text-indent -20px
+			text-transform uppercase
+
+			&.phase-two
+				align-self flex-end
+				margin 0 0 40px 20px
+
+				span
+					background-color $primary-color
+					box-shadow 15px 0 0 $primary-color, -15px 0 0 $primary-color
+
+					+tablet()
+						box-shadow 20px 0 0 $primary-color, -20px 0 0 $primary-color
+
+
+			&.phase-one span
+				background-color $secondary-color
+				box-shadow 15px 0 0 $secondary-color, -15px 0 0 $secondary-color
+
+				+tablet()
+					box-shadow 20px 0 0 $secondary-color, -20px 0 0 $secondary-color
+
+
+			&.phase-three span
+				background-color $tertiary-color
+				box-shadow 15px 0 0 $tertiary-color, -15px 0 0 $tertiary-color
+
+				+tablet()
+					box-shadow 20px 0 0 $tertiary-color, -20px 0 0 $tertiary-color
+
+			span
+				color $white
+				font-size 14px
+				line-height 2.2
+				padding 7px 0 5px
+				+tablet()
+					line-height 2
+					font-size 18px
+
+	.share-cta
+		display flex
+		flex-flow column
+		justify-content center
+
+		p
+			font-family(roboto, bold)
+			font-size 16px
+			line-height 1.8
+			max-width 210px
+
+			+tablet()
+				font-size 18px
+
+		a
+			btn(share)
+			margin-top 20px
+
+.more-info
+	component-spacing()
+
+	.container
+		display flex
+		flex-flow column
+		justify-content space-between
+
+		+tablet()
+			flex-flow row
+
+		> div
+			margin-right $gutter
+			margin-bottom ($gutter * 3)
+			padding 0 ($gutter / 2) 45px 0
+			position relative
+
+			+tablet()
+				margin-bottom 0
+
+			&:last-child
+				margin-right 0
+
+			h5
+				font-family(lato, black)
+				color $secondary-color
+				font-size 22px
+				line-height 1.5
+				margin 0
+				text-transform uppercase
+
+				+tablet()
+					font-size 24px
+
+			p
+				line-height 2
+				margin ($gutter / 2) 0 $gutter
+
+				+tablet()
+					margin $gutter 0
+					max-width 310px
+
+			a
+				position absolute
+				bottom 0

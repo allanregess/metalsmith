@@ -1,0 +1,48 @@
+{
+	"_template": "pages/projeto-interna.njk",
+	"pageTitle": "Workshop: Violência doméstica e o mercado de trabalho - Instituto Maria da Penha",
+	"hero": {
+		"imagePath":"/assets/hero/workshop-vio-dom-hero.jpg",
+		"icon":"/assets/projects/project-icon.png",
+		"preTitle":"workshop",
+		"title":"Violência doméstica e seu impacto no mercado de trabalho:",
+		"description":"por que as empresas devem se preocupar com isso?",
+		"ctaUrl":"mailto:atendimento@institutomariadapenha.org.br",
+		"ctaLabel":"Entrar em contato"
+	},
+	"projectContent": [
+		{
+			"title":"Contexto",
+			"description":"A violência doméstica e familiar contra a mulher é uma questão não apenas social mas também de saúde pública. As agressões restringem o desenvolvimento das potencialidades da mulher, inclusive a sua inserção e produtividade no mercado de trabalho. <br /><br />O II Relatório da PCSVDF<u>Mulher</u>, <b>Violência Doméstica e seu Impacto no Mercado de Trabalho e na  Produtividade das Mulheres</b>, e vários outros estudos comprovam que as mulheres submetidas a situações de violência doméstica apresentam menor capacidade de concentração e de tomar decisões no trabalho. E não para por aí: elas se sentem estressadas com frequência, faltam mais e têm a sua produtividade diminuída. Com isso, uma situação de instabilidade se acentua, ou seja, a dinâmica de emprego e desemprego aumenta. <br /><br />As empresas que atentam para essa problemática estão à frente no seu segmento. Além de ser um pilar da responsabilidade social, lidar com essa situação – ainda hoje uma triste realidade – é uma questão de <i>smart business</i>, já que afeta o planejamento estratégico e o desenvolvimento financeiro das instituições."
+		},
+		{
+			"title":"Por que é importante",
+			"description":"Esses fatores impactam tanto a vida laboral e o salário da mulher – o que pode afetar também a sua autonomia econômica e ampliar a sua dependência do parceiro – quanto a produtividade e a rentabilidade das empresas."
+		},
+		{
+			"title":"Conteúdo",
+			"description":"Pensando nisso, esse workshop é dividido em dois momentos: “oficina de capacitação com gestores” e “palestra de sensibilização com os funcionários”. O papel do gestor no apoio à vítima, os tipos de violência, os mitos da violência doméstica e os equipamentos de atendimento à mulher em situação de violência são apenas alguns temas abordados."
+		},
+		{
+			"title":"Objetivo",
+			"description":"O nosso objetivo é trazer o tema do enfrentamento à violência doméstica e familiar contra a mulher para o dia a dia das empresas, bem como que os gestores possam oferecer uma escuta ativa às vítimas e que tanto as colaboradoras quanto os colaboradores sejam capazes de multiplicar os conceitos aprendidos."
+		}
+	],
+	"projectInfo": [
+		{
+			"class":"public",
+			"title":"Público-Alvo",
+			"description":"Gestores e funcionários de empresas públicas e privadas."
+		},
+		{
+			"class":"duration",
+			"title":"Duração",
+			"description":"4 horas"
+		},
+		{
+			"class":"contacts",
+			"title":"Contato",
+			"description":"Para contratar e obter mais informações, entre em contato pelo e-mail: <b>atendimento@institutomariadapenha.com.br</b>"
+		}
+	]
+}

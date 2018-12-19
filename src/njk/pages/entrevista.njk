@@ -1,0 +1,83 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+	<div class="hero-interview">
+		<div class="container">
+			<div class="content">
+				<div class="text">
+					<h1>{{ hero.title | safe }}</h1>
+					<p>{{ hero.text | safe }}</p>
+				</div>
+				<div class="bg">
+					<div>
+						<img src="{{ root(hero.imagePath) }}" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="questions-wrapper">
+		<div class="container">
+			{% for item in first_block %}
+				<div class="questions">
+					<div class="icon"><span>{{loop.index}}.</span></div>
+					<h3>{{ item.question | safe }}</h3>
+					<p>{{ item.answer | safe }}</p>
+					<span class="more">+ ler mais</span>
+					{% if item.quote %}
+						<div class="quote-box">
+							<blockquote>
+								{{ item.quote | safe }}
+							</blockquote>
+						</div>
+					{% endif %}
+				</div>
+			{% endfor %}
+	</div>
+
+	<div class="questions-wrapper secondary">
+		<div class="container">
+			<div class="questions">
+				<div class="icon"><span>5.</span></div>
+				<h3> {{ second_block.question | safe }} </h3>
+				<p> {{ second_block.answer | safe }} </p>
+				<span class="more">+ ler mais</span>
+			</div>
+		</div>
+	</div>
+	<div class="questions-wrapper photo">
+		<div class="container">
+			<div class="questions">
+				<blockquote>
+					 {{ second_block.quote | safe }}
+				</blockquote>
+			</div>
+		</div>
+	</div>
+
+	<div class="questions-wrapper">
+		<div class="container">
+			{% for item in third_block %}
+				<div class="questions">
+					<div class="icon"><span>{{loop.index + 5}}.</span></div>
+					<h3>{{ item.question | safe }}</h3>
+					<p>{{ item.answer | safe }}</p>
+					<span class="more">+ ler mais</span>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+
+	<div class="interview-call">
+		<h4>Não se cale, denuncie.</h4>
+	</div>
+
+
+
+	{% include "partials/cam.njk" %}
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

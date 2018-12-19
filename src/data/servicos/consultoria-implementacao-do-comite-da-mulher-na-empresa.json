@@ -1,0 +1,39 @@
+{
+	"_template": "pages/projeto-interna.njk",
+	"pageTitle": "Consultoria: Implementação do Comitê da Mulher na empresa - Instituto Maria da Penha",
+	"hero": {
+		"imagePath":"/assets/hero/comite-mulher-hero.jpg",
+		"icon":"/assets/projects/people-icon.png",
+		"preTitle":"Consultoria",
+		"title":"Implementação do Comitê da Mulher na empresa",
+		"ctaUrl":"mailto:atendimento@institutomariadapenha.com.br",
+		"ctaLabel":"Entrar em contato"
+	},
+	"projectContent": [
+		{
+			"title":"Passo a passo e objetivos",
+			"description":"Para que seja possível a implementação de um Comitê da Mulher nas empresas, primeiro é feita uma reunião para obter um diagnóstico dos gestores e RH. Identifica-se aqui, por exemplo, se já houve relatos de colaboradoras que foram vítimas de violência doméstica, se existe pesquisa de clima ou se há ações de equidade de gênero na empresa. <br /><br />A análise de todas essas informações vai gerar um relatório para que, assim, seja possível chegar ao segundo momento: oficina de capacitação com gestores, RH, lideranças formais e informais. <br /><br /> Entre os objetivos, podemos citar: multiplicar os conceitos aprendidos, conseguir detectar situações de colaboradoras que são vítimas de violência doméstica e entender como isso impacta o seu desempenho, fazer a escuta ativa e acolhedora dessas mulheres etc. <br /><br /> Na terceira fase, há uma palestra de sensibilização com os funcionários da empresa e, por fim, a composição do Comitê da Mulher a partir de um guia de implementação, com indicações de um plano de trabalho, criação de um regimento interno e divulgação nos canais de comunicação."
+		},
+		{
+			"title":"Por que é importante",
+			"description":"Acreditamos na importância dos colaboradores no projeto para que as informações não se percam após a intervenção do Instituto Maria da Penha. Com alcance ainda maior, os conceitos podem ultrapassar o ambiente de trabalho, chegando às famílias e aos círculos de amizade de todos os envolvidos."
+		}
+	],
+	"projectInfo": [
+		{
+			"class":"public",
+			"title":"Público-Alvo",
+			"description":"Gestores e funcionários de empresas públicas e privadas."
+		},
+		{
+			"class":"duration",
+			"title":"Duração",
+			"description":"10 horas + acompanhamento durante 6 meses"
+		},
+		{
+			"class":"contacts",
+			"title":"Contato",
+			"description":"Para contratar e obter mais informações, entre em contato pelo e-mail: <b>atendimento@institutomariadapenha.com.br</b>"
+		}
+	]
+}

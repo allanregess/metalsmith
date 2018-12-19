@@ -1,0 +1,59 @@
+{
+	"_template": "pages/lei.njk",
+	"pageTitle": "A Lei",
+	"hero": {
+		"title":"a lei na íntegra e comentada",
+		"buttonLabel":"fazer download da lei",
+		"imagePath":"/assets/hero/hero-law.jpg",
+		"pdf": "#",
+		"content":"<p>Antes da Lei <strong>Maria da Penha</strong> entrar em vigor, a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Na prática, isso significava que a violência de gênero era banalizada, e as penas geralmente se reduziam ao pagamento de cestas básicas ou trabalhos comunitários. Em outras palavras, não havia dispositivo legal para punir, com mais rigor, o homem autor de violência.<br/><br/>Para se ter uma ideia do que acontecia, após denunciar o agressor, a vítima ainda tinha que levar a intimação para que ele comparecesse perante o delegado. Isso mostra o descaso e a falta de sensibilidade com que esse problema era tratado.<br/><br/>Por isso, para o Consórcio de ONGs que participou da criação da Lei Maria da Penha, era fundamental desvincular a nova lei da Lei n. 9.099/1995. Havia a necessidade de mudar esse cenário e, após pouco mais de quatro anos de muito debate com o Executivo, o Legislativo e a sociedade civil, a Lei <strong>Maria da Penha foi sancionada em 7 de agosto de 2006.</strong></p>"
+	},
+	"topics":[
+		{
+			"icon": "/assets/law/know_icon.png",
+			"title": "você sabia?",
+			"description": "<strong>A Lei Maria da Penha é considerada pela Organização das Nações Unidas (ONU) uma das três mais avançadas do mundo.</strong> Entre as principais inovações trazidas pela lei, podemos citar as medidas protetivas de urgência para as vítimas. Além disso, a LMP prevê a criação de equipamentos indispensáveis à sua efetividade: <strong>Delegacias da Mulher, Casas-abrigo, Centros de Referência da Mulher e Juizados de Violência Doméstica e Familiar contra a Mulher, entre outros.</strong>"
+		},
+		{
+			"icon": "/assets/law/inovation_icon.png",
+			"title": "inovações da lei n. 11.340/2006",
+			"description": "Com a LMP, a violência doméstica e familiar contra a mulher passa a ser crime, deixando de ser tratada como de menor potencial ofensivo. <strong>A lei também estabelece a definição do que é a violência doméstica e familiar, bem como caracteriza as suas formas: física, psicológica, sexual, patrimonial e moral.</strong>  Além disso, a Lei n. 11.340/2006 cria mecanismos de proteção às vítimas, assumindo que a violência de gênero contra a mulher é uma responsabilidade do Estado brasileiro, e não apenas uma questão familiar."
+		}
+	],
+	"reasons":{
+		"lines":"/assets/law/lines.png",
+		"importance":{
+			"icon":"/assets/law/reasons_icon.png",
+			"title":"POR QUE A LEI MARIA DA PENHA<br/>É IMPORTANTE HOJE?",
+			"description":"Além de proteger mulheres em situação de violência e salvar vidas, a Lei n. 11.340/2006 pune os agressores, fortalece a autonomia das mulheres, educa a sociedade e cria meios de assistência e atendimento humanizado, bem como inclui valores de direitos humanos nas políticas públicas para o enfrentamento e combate à violência de gênero."
+		},
+		"explanation":{
+			"title":"AFINAL, O QUE É UMA MEDIDA PROTETIVA DE URGÊNCIA?",
+			"description":"<strong>Trata-se de uma determinação do juiz ou juíza para proteger a mulher em situação de violência doméstica, familiar ou na relação de afeto, conforme a necessidade da solicitante.</strong> As medidas protetivas podem ser demandadas já no atendimento policial, na delegacia, e ordenadas pelo juiz ou juíza em até 48 horas, devendo ser emitidas com urgência em casos em que a mulher corre risco de morte. Assim, conforme o art. 22 da Lei Maria da Penha, o juiz ou juíza poderá determinar:",
+			"list":[
+				"A proibição ou restrição do uso de arma por parte do agressor.",
+				"O afastamento do agressor da casa.",
+				"A proibição do agressor de se aproximar da mulher agredida.",
+				"A restrição ou suspensão de visitas aos dependentes menores.",
+				"A obrigatoriedade da prestação de alimentos provisórios.",
+				"A restituição de bens indevidamente subtraídos pelo agressor.",
+				"A proibição de venda ou aluguel de imóvel da família sem autorização judicial.",
+				"O depósito de valores correspondentes aos danos causados pelo agressor etc."
+			]
+		}
+	},
+	"resume":{
+		"icon":"/assets/law/reasons_icon.png",
+		"title": "RESUMO DA LEI N. 11.340/2006",
+		"description": "A <strong>Lei Maria da Penha</strong> foi sancionada em 7 de agosto de 2006 pelo presidente Luiz Inácio Lula da Silva. Com 46 artigos distribuídos em sete títulos, ela cria mecanismos para prevenir e coibir a violência doméstica e familiar contra a mulher em conformidade com a Constituição Federal (art. 226, § 8°) e os tratados internacionais ratificados pelo Estado brasileiro (Convenção de Belém do Pará, Pacto de San José da Costa Rica, Declaração Americana dos Direitos e Deveres do Homem e Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher).",
+		"list":[
+			{"index":"I","content": "O <strong>Título I</strong> determina em quatro artigos a quem a lei é direcionada, ressaltando ainda a responsabilidade da família, da sociedade e do poder público para que todas as mulheres possam ter o exercício pleno dos seus direitos."},
+			{"index":"II","content": "Já o <strong>Título II</strong> vem dividido em dois capítulos e três artigos: além de configurar os espaços em que as agressões são qualificadas como violência doméstica, traz as definições de todas as suas formas (física, psicológica, sexual, patrimonial e moral)."},
+			{"index":"III","content": "Quanto ao <strong>Título III</strong>, composto de três capítulos e sete artigos, tem-se a questão da assistência à mulher em situação de violência doméstica e familiar, com destaque para as medidas integradas de prevenção, atendimento pela autoridade policial e assistência social às vítimas."},
+			{"index":"IV","content": "O <strong>Título IV</strong>, por sua vez, possui quatro capítulos e 17 artigos, tratando dos procedimentos processuais, assistência judiciária, atuação do Ministério Público e, em quatro seções (Capítulo II), se dedica às medidas protetivas de urgência, que estão entre as disposições mais inovadoras da Lei n. 11.340/2006."},
+			{"index":"V","content": "No <strong>Título V</strong> e seus quatro artigos, está prevista a criação de Juizados de Violência Doméstica e Familiar contra a Mulher, p    odendo estes contar com uma equipe de atendimento multidisciplinar composta de profissionais especializados nas áreas psicossocial, jurídica e da saúde, incluindo-se também destinação de verba orçamentária ao Judiciário para a criação e manutenção dessa equipe."},
+			{"index":"VI","content": "O <strong>Título VI</strong> prevê, em seu único artigo e parágrafo único, uma regra de transição, segundo a qual as varas criminais têm legitimidade para conhecer e julgar as causas referentes à violência de gênero enquanto os Juizados de Violência Doméstica e Familiar contra a Mulher não estiverem estruturados."},
+			{"index":"VII","content": "Por fim, encontram-se no <strong>Título VII</strong> as disposições finais. São 13 artigos que determinam que a instituição dos Juizados de Violência Doméstica e Familiar contra a Mulher pode ser integrada a outros equipamentos em âmbito nacional, estadual e municipal, tais como casas-abrigo, delegacias, núcleos de defensoria pública, serviços de saúde, centros de educação e reabilitação para os agressores etc. Dispõem ainda sobre a inclusão de estatísticas sobre a violência doméstica e familiar contra a mulher nas bases de dados dos órgãos oficiais do Sistema de Justiça e Segurança, além de contemplarem uma previsão orçamentária para o cumprimento das medidas estabelecidas na lei. Um dos ganhos significativos trazidos pela lei, conforme consta no art. 41, é a não aplicação da Lei n. 9.099/1995, ou seja, a violência doméstica praticada contra a mulher deixa de ser considerada como de menor potencial ofensivo."}
+		]
+	}
+}

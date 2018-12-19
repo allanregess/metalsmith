@@ -1,0 +1,99 @@
+{
+	"_template": "pages/quem-somos.njk",
+	"pageTitle": "O Instituto - Instituto Maria da Penha",
+	"hero": {
+		"title":"O instituto Maria da Penha",
+		"description":"Fundado em 2009, com sede em Fortaleza e representação em Recife, o Instituto Maria da Penha (IMP) é uma organização não governamental sem fins lucrativos.",
+		"content":"O seu surgimento está diretamente ligado à história de vida de Maria da Penha, que se tornou um símbolo de luta no combate à violência doméstica contra a mulher. <br><br> Só para lembrar: a Lei n. 11.340/2006 leva o nome de Maria da Penha como uma forma de reparação simbólica depois de tantos anos de omissão do Estado brasileiro e de impunidade do seu agressor. Ela também representa o acesso à justiça e foi criada para garantir os direitos de milhares de mulheres vítimas de violência no País. <br><br>E o papel do Instituto Maria da Penha nesse contexto é estimular e contribuir para a aplicação integral da lei, bem como monitorar a implementação e o desenvolvimento das melhores práticas e políticas públicas para o seu cumprimento, promovendo a construção de uma sociedade sem violência doméstica e familiar contra a mulher.",
+		"imagePath":"/assets/hero/hero-about-us.jpg"
+	},
+	"vision": {
+		"icon":"/assets/icons/vision-icon.png",
+		"title":"Visão",
+		"description":"O Instituto Maria da Penha tem como objetivo contribuir e fortalecer mecanismos para coibir e prevenir a violência doméstica e familiar contra a mulher, conforme o <br /> art. 1º da <b>Lei n. 11.340/2006</b>. Para isso, contamos com o apoio da sociedade civil organizada e de instituições comprometidas com o seu papel de transformador social."
+	},
+	"mission": {
+		"icon":"/assets/icons/mission-icon.png",
+		"title":"Missão",
+		"description":"Enfrentar, por meio de mecanismos de conscientização e empoderamento, a violência doméstica e familiar contra a mulher."
+	},
+	"values": {
+		"icon":"/assets/icons/values-icon.png",
+		"title":"Valores",
+		"list": ["Ética","Justiça","Honestidade","Solidariedade","Comprometimento","Transparência","Despreconceito"]
+	},
+	"partners": [
+		{
+			"logoImg":"/assets/partners/universidade-federal-ceara-logo.jpg",
+			"title":"Universidade Federal do Ceará (UFC)"
+		},
+		{
+			"logoImg":"/assets/partners/fundacao-edson-queiroz-logo.jpg",
+			"title":"Fundação Edson Queiroz Universidade de Fortaleza (UNIFOR)"
+		},
+		{
+			"logoImg":"/assets/partners/universidade-estadual-ceara-logo.jpg",
+			"title":"Universidade Estadual do Ceará (UECE)"
+		},
+		{
+			"logoImg":"/assets/partners/unilab-logo.jpg",
+			"title":"Universidade da Integração Internacional da Lusofonia Afro-Brasileira (UNILAB)"
+		},
+		{
+			"logoImg":"/assets/partners/faculdade-metropolitana-logo.jpg",
+			"title":"Faculdade Metropolitana da Grande Recife"
+		},
+		{
+			"logoImg":"/assets/partners/faculdade-ciencias-logo.jpg",
+			"title":"Faculdade de Ciências Humanas de Pernambuco (SOPECE)"
+		},
+		{
+			"logoImg":"/assets/partners/eua-consulado-geral-logo.jpg",
+			"title":"United States of America — Consulate General"
+		},
+		{
+			"logoImg":"/assets/partners/governo-federal-logo.jpg",
+			"title":"Secretaria de Políticas para as Mulheres — Governo Federal"
+		},
+		{
+			"logoImg":"/assets/partners/onu-mulheres-logo.jpg",
+			"title":"ONU Mulheres"
+		},
+		{
+			"logoImg":"/assets/partners/banco-mundial-logo.jpg",
+			"title":"Banco Mundial"
+		},
+		{
+			"logoImg":"/assets/partners/fbiz-logo.jpg",
+			"title":"F.biz"
+		},
+		{
+			"logoImg":"/assets/partners/arte-final-logo.jpg",
+			"title":"Arte Final Comunicação"
+		},
+		{
+			"logoImg":"/assets/partners/hip-logo.jpg",
+			"title":"Hip"
+		},
+		{
+			"logoImg":"/assets/partners/ceres-logo.jpg",
+			"title":"Ceres Curso de inglês"
+		},
+		{
+			"logoImg":"/assets/partners/moria-treinamentos-logo.jpg",
+			"title":"Moriá Treinamentos"
+		},
+		{
+			"logoImg":"/assets/partners/porto-social-logo.jpg",
+			"title":"Porto Social"
+		},
+		{
+			"logoImg":"/assets/partners/we-world-logo.jpg",
+			"title":"We World"
+		},
+		{
+			"logoImg":"/assets/partners/cafe-novo-comunicacao.jpg",
+			"title":"Café Novo"
+		}
+	]
+}

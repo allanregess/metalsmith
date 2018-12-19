@@ -1,0 +1,282 @@
+.hero-interview
+	.content
+		display flex
+		flex-direction column
+
+		+desktop()
+			flex-direction row
+
+		.text
+			+desktop()
+				display flex
+				flex-direction column
+				justify-content center
+				flex-basis 390px
+
+			h1
+				font-family(lato, black)
+				color $secondary-color
+				font-size 24px
+				line-height 1.4
+				margin-top 40px
+				text-transform uppercase
+
+				+desktop()
+					font-size 40px
+					margin-bottom 0
+					margin-top 30px
+
+				+maxWide()
+					margin 0
+
+				span
+					font-family(lato, black)
+					background $secondary-color
+					color $white
+					display block
+					font-size 24px
+					line-height 1.3
+					margin 10px 0 20px 0
+					max-width 230px
+					padding 5px
+					text-align center
+
+					+desktop()
+						font-size 40px
+						margin 10px 0 15px 0
+						max-width 390px
+
+			p
+				line-height 1.8
+
+				+desktop()
+					font-size 18px
+					line-height 1.7
+					margin-bottom 30px
+
+				+maxWide()
+					margin-bottom 0
+
+				span
+					font-family(roboto, bold)
+
+		.bg
+			padding-top 20px
+			justify-content center
+			display flex
+
+			+desktop()
+				align-items flex-end
+				flex-basis calc(100% - 390px)
+				justify-content flex-end
+				padding 0
+
+			img
+				display block
+				max-width 100%
+
+.questions-wrapper
+	component-spacing()
+	background-color $white
+	padding-bottom $gutter
+	position relative
+
+	+tablet()
+		padding-bottom $gutter
+
+	+desktop()
+		padding-bottom $gutter
+
+	&.secondary
+		background-color $secondary-color
+		color $white
+		padding-bottom 75px
+
+		.container
+			.questions
+				.icon span
+					border 3px solid $secondary-color
+
+					+tablet()
+						border 5px solid $secondary-color
+
+				p::after
+					background none
+
+				.more
+					color $white
+
+				h3
+					color $white
+
+	&.photo
+		component-spacing()
+		background url('/assets/interview/interview-question-bg.jpg') center top / cover no-repeat
+
+		.container
+			.questions
+				padding-top 0
+				padding-left 0
+
+				+tablet()
+					margin 0 auto
+
+		blockquote
+			quotes()
+			color $white
+			font-size 18px
+			line-height 1.5
+			margin 0 $gutter
+			max-width 570px
+
+			span
+				font-family(roboto, bold)
+				font-size 40px
+				line-height 1.2
+
+	.container
+		.questions
+			margin-bottom 100px
+			max-width 810px
+			padding-top 100px
+			position relative
+
+			&:last-child
+				margin-bottom 0
+
+			+tablet()
+				margin-bottom 150px
+				padding-left 160px
+				padding-top 0
+
+			.icon
+				font-family(lato, black)
+				align-items center
+				background-color $tertiary-color
+				border-radius 100%
+				color $white
+				display flex
+				font-size 18px
+				height 55px
+				justify-content center
+				left 0
+				position absolute
+				top 0
+				width 55px
+
+				span
+					align-items center
+					border 3px solid $white
+					border-radius 100%
+					box-sizing border-box
+					display flex
+					height 51px
+					justify-content center
+					width 51px
+
+				+tablet()
+					font-size 30px
+					height 75px
+					width 75px
+
+					span
+						border 5px solid $white
+						height 71px
+						width 71px
+
+			h3
+				font-family(lato, black)
+				color $secondary-color
+				font-size 24px
+				line-height 1.4
+				margin-bottom $gutter
+				margin-top 0
+
+			&.open
+				p
+					max-height none
+
+					&:after
+						display none
+
+				.more
+					display none
+
+			p
+				font-size 18px
+				line-height 1.7
+				max-height 175px
+				position relative
+				overflow hidden
+
+				&:after
+					background linear-gradient(to bottom, alpha($white, 0) 0%, $white 100%);
+					bottom 0
+					content ''
+					display block
+					height 30px
+					position absolute
+					width 100%
+
+				+desktop()
+					max-height none
+
+					&:after
+						display none
+
+				a
+					color $secondary-color
+
+			.more
+				color $dark-secondary
+				cursor pointer
+				font-size 18px
+				text-decoration underline
+
+				+desktop()
+					display none
+
+			//box first questions
+			.quote-box
+				background-color $white
+				border 3px solid $tertiary-color
+				box-sizing border-box
+				margin $gutter * 2 auto
+				max-width 550px
+				padding 20px
+
+				blockquote
+					font-family(lato)
+					quotes()
+					background-color $light-gray
+					font-size 24px
+					line-height 1.7
+					margin 0
+					padding 55px
+
+.interview-call
+	background-color $white
+	padding-bottom 100px
+
+	+desktop()
+		padding-bottom 150px
+
+	h4
+		font-family(lato, black)
+		color $primary-color
+		font-size 40px
+		line-height 1.3
+		margin 0
+		text-align center
+		text-transform uppercase
+
+		+tablet()
+			font-size 60px
+
+		&:before
+			background-color $primary-color
+			content ''
+			display block
+			height 100px
+			margin 0 auto $gutter * 2
+			width 1px

@@ -1,0 +1,463 @@
+.hero-about-us
+	background-color $white
+
+	.hero-img-bg
+		imgCover()
+
+		&:after
+			background-image url('/assets/imp-sprite.svg#arrow-teaser-white')
+			bottom ($gutter * 2)
+			content ''
+			height 50px
+			left 50%
+			position absolute
+			transform translateX(-50%)
+			width 22px
+
+		.container
+			align-items center
+			color $white
+			display flex
+			flex-flow column
+			justify-content center
+			line-height 1.5
+			padding 90px $gutter 130px
+			position relative
+			text-align center
+			z-index 2
+
+			+tablet()
+				padding 0 $gutter
+				min-height 670px
+
+			h1
+				font-family(lato, black)
+				font-size 24px
+				margin 0
+				text-transform uppercase
+
+				+tablet()
+					font-size 40px
+
+			p
+				font-size 16px
+				max-width 410px
+
+				+tablet()
+					font-size 18px
+					max-width 680px
+
+	.hero-content
+		component-spacing()
+		font-size 16px
+		line-height 1.5
+		margin 0 auto
+		max-width 810px
+
+		+tablet()
+			font-size 18px
+
+.imp-acting
+	component-spacing()
+
+	.container
+		display flex
+		flex-flow column
+		justify-content space-between
+
+		+desktop()
+			flex-flow row
+
+		p
+			font-family(lato, black)
+			color $secondary-color
+			font-size 22px
+			flex-grow 1
+			line-height 1.5
+			text-transform uppercase
+
+			+tablet()
+				font-size 24px
+
+			+desktop()
+				padding-right $gutter
+				max-width 380px
+
+		div
+			flex-grow 2
+
+			+tablet()
+				font-size 18px
+
+			+desktop()
+				max-width 700px
+
+			ul
+				+desktop()
+					margin-top -275px
+
+				li
+					font-family(roboto, bold)
+					background-color $white
+					border-left 10px solid $tertiary-color
+					box-shadow 5px -5px 20px 0px alpha($black, 0.1), 0 5px 20px 0px alpha($black, 0.1)
+					line-height 1.8
+					margin 50px 0
+					padding 40px
+					position relative
+
+					&:before,
+					&:after
+						content ''
+						display block
+						position absolute
+						top 50%
+
+					&:before
+						background-color $tertiary-color
+						border-radius 100%
+						height 34px
+						left -22px
+						transform translateY(-50%)
+						width 34px
+
+					&:after
+						background $white
+						border-radius 10px
+						height 15px
+						left -12px
+						transform translateY(-50%)
+						width 15px
+
+.vision-mission-values
+	component-spacing()
+	background-color $white
+
+	.container
+		display flex
+		flex-flow column
+		justify-content space-between
+		text-align center
+
+		+tablet()
+			flex-flow row
+
+		> div
+			flex 1 auto
+			margin-bottom $gutter * 3
+
+			+tablet()
+				flex 1 33.333%
+				margin-bottom 0
+				padding-right $gutter
+
+			&:last-child
+				padding-right 0
+
+			div
+				align-items flex-end
+				display flex
+				justify-content center
+				min-height 110px
+
+			h5
+				font-family(lato, black)
+				color $secondary-color
+				font-size 22px
+				line-height 1.5
+				margin $gutter 0 0
+				text-transform uppercase
+
+				+tablet()
+					font-size 24px
+
+			p
+				line-height 1.6
+				margin 20px auto 0
+
+				+tablet()
+					max-width 315px
+
+			ul
+				margin 20px auto
+
+				li
+					line-height 1.6
+
+					span
+						font-size 8px
+						vertical-align middle
+
+				+tablet()
+					max-width 315px
+
+.directors-board-header
+	background-color $secondary-color
+	color $white
+	padding 100px 0 200px 0
+
+	+desktop()
+		padding 150px 0 200px 0
+
+	.container
+		align-items center
+		display flex
+		flex-flow column
+		justify-content space-around
+
+		+desktop()
+			flex-flow row
+
+		h3
+			font-family(lato, black)
+			font-size 30px
+			flex-grow 1
+			line-height 1.4
+			margin 0 ($gutter * 2) $gutter 0
+			text-decoration underline
+			text-transform uppercase
+
+			+desktop()
+				font-size 40px
+				max-width 275px
+
+		p
+			flex-grow 2
+			font-size 16px
+			line-height 1.5
+			max-width 800px
+
+			+tablet()
+				font-size 18px
+
+.directors-board-content
+	.pictures
+		display flex
+		flex-wrap wrap
+		justify-content center
+		margin-top -140px
+
+		+tablet()
+			justify-content space-between
+
+		> div
+			box-sizing border-box
+			flex 1 1 33.333%
+			margin $gutter 0
+			text-align center
+
+			p
+				font-family(lato, black)
+				color $secondary-color
+				font-size 24px
+				line-height 1.4
+				margin 0 0 5px
+				text-transform uppercase
+
+				span
+					font-family(roboto)
+					font-style italic
+					color $black
+					font-size 16px
+					text-transform none
+
+			a
+				font-family(roboto)
+				color $black
+				font-size 16px
+				text-decoration none
+
+				&:hover
+					text-decoration underline
+
+	.members
+		display flex
+		flex-wrap wrap
+		padding-bottom 100px
+
+		+tablet()
+			padding-bottom 150px
+
+		> div
+			box-sizing border-box
+			flex 0 1 100%
+			padding 100px 0 0 15px
+
+			+tablet()
+				flex 0 1 50%
+				padding 150px 0 0 90px
+
+			+desktop()
+				flex 0 1 33.333%
+				margin-right $gutter
+
+		.title
+			font-family(lato, black)
+			color $secondary-color
+			font-size 24px
+			line-height 1.4
+			margin 0
+			position relative
+			text-transform uppercase
+
+			&:before
+				background-color $secondary-color
+				bottom 7px
+				content ''
+				display inline-block
+				height 2px
+				left -90px
+				position absolute
+				width 80px
+
+		.subtitlle
+			font-family(roboto, bold)
+			font-size 18px
+			margin-bottom $gutter
+
+		.team-members
+			line-height 2
+
+			span
+				font-family(roboto)
+				font-style italic
+
+.be-a-partner
+	component-spacing()
+	background linear-gradient($light-gray 50%, $white 50%)
+
+	.container
+		position relative
+
+	.join-icon
+		margin-bottom $gutter
+		margin-top -100px
+		max-width 340px
+		position relative
+		width 100%
+
+		+desktop()
+			margin-top -210px
+			position absolute
+			right $gutter
+
+	.content-box
+		background-color $white
+		box-shadow 5px -5px 20px 0px alpha($black, 0.05), 0 5px 20px 0px alpha($black, 0.05)
+		box-sizing border-box
+		display flex
+		flex-flow column
+		justify-content space-between
+		max-width 1142px
+		margin 0 auto
+		padding 80px 35px
+
+		+desktop()
+			align-items flex-end
+			flex-flow row
+			padding 100px 80px
+
+		> div
+			max-width 415px
+
+		h3
+			margin-top 0
+			margin-left 10px
+
+			+desktop()
+				margin-left 20px
+
+			span
+				font-family(lato, black)
+				background-color $tertiary-color
+				box-shadow 10px 0 0 $tertiary-color, -10px 0 0 $tertiary-color
+				color $white
+				font-size 30px
+				line-height 1.8
+				padding 7px 0 5px
+				text-transform uppercase
+
+				+desktop()
+					box-shadow 20px 0 0 $tertiary-color, -20px 0 0 $tertiary-color
+					font-size 40px
+
+		p
+			line-height 1.7
+			max-width 355px
+
+			&.mail
+				+desktop()
+					font-size 18px
+
+				a
+					font-family(roboto, bold)
+					color $black
+					text-decoration none
+
+					&:hover
+						text-decoration underline
+
+.our-partners
+	background-color $white
+	padding-bottom 100px
+
+	+desktop()
+		padding-bottom 150px
+
+	h3
+		font-family(lato, black)
+		color $secondary-color
+		font-size 24px
+		line-height 1.4
+		margin 0 auto $gutter
+		max-width 565px
+		text-align center
+		text-decoration underline
+		text-transform uppercase
+
+		+tablet()
+			font-size 40px
+
+	ul
+		display flex
+		flex-wrap wrap
+		margin-top 130px
+		text-align center
+
+		+tablet()
+			text-align left
+
+		li
+			box-sizing border-box
+			flex-basis 100%
+			margin $gutter 0
+			min-width 280px
+
+			+tablet()
+				flex-basis 50%
+				padding-left 70px
+
+			+desktop()
+				flex-basis 33.333%
+				padding-left 100px
+
+			+wide()
+				padding-left 130px
+
+			p
+				font-size 18px
+				line-height 1.5
+				margin 15px 0 0
+				text-indent -10px
+
+				+tablet()
+					max-width 215px
+
+				&:before
+					background-color $tertiary-color
+					content ''
+					display inline-block
+					height 2px
+					margin-left -50px
+					margin-right 10px
+					width 50px

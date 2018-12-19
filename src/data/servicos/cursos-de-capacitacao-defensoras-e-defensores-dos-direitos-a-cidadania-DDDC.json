@@ -1,0 +1,39 @@
+{
+	"_template": "pages/projeto-interna.njk",
+	"pageTitle": "Programa Defensoras e Defensores dos Direitos à Cidadania (DDDC) - Instituto Maria da Penha",
+	"hero": {
+		"imagePath":"/assets/hero/programa-dddc-hero.jpg",
+		"icon":"/assets/projects/hat-icon.png",
+		"preTitle":"Cursos de Capacitação",
+		"title":"Programa Defensoras e Defensores dos Direitos à Cidadania (DDDC)",
+		"ctaUrl":"mailto:atendimento@institutomariadapenha.com.br",
+		"ctaLabel":"Entrar em contato"
+	},
+	"projectContent": [
+		{
+			"title":"Por que é importante",
+			"description":"Com este programa, o Instituto Maria da Penha se apresenta como parceiro potencial de universidades, escolas, instituições públicas, ONGs, empresas e organizações afins para identificar demandas, contribuir e efetivar ações estratégicas que reforcem a proposta da Lei n. 11.340/2006 para inibir, punir e erradicar toda e qualquer violência praticada contra a mulher, a fim de garantir condições ao pleno exercício de seus direitos."
+		},
+		{
+			"title":"Formação e capacitação",
+			"description":"O Programa DDDC conta com cursos de vários formatos e abordagens sobre o enfrentamento à violência doméstica e familiar contra a mulher e a Lei Maria da Penha. Podem ser voltados tanto para a sociedade em geral quanto direcionados a públicos específicos (customizados). Além disso, o IMP emite certificados a todos os participantes."
+		}
+	],
+	"projectInfo": [
+		{
+			"class":"public",
+			"title":"Público-Alvo",
+			"description":"Profissionais que atuam na rede de atendimento à mulher em situação de violência, operadores do direito, técnicos e gestores da rede básica de educação, além de profissionais da área da Saúde, Comunicação Social, Psicologia etc."
+		},
+		{
+			"class":"duration",
+			"title":"Duração",
+			"description":"Carga horária flexível, podendo variar entre 8, 12, 24, 40 e 60 horas."
+		},
+		{
+			"class":"contacts",
+			"title":"Contato",
+			"description":"Para contratar e obter mais informações, entre em contato pelo e-mail: <b>atendimento@institutomariadapenha.com.br</b>"
+		}
+	]
+}

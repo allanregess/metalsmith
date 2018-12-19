@@ -1,0 +1,112 @@
+.hero-domestic-violence
+	imgCover()
+
+	.container
+		align-items center
+		box-sizing border-box
+		color $white
+		display flex
+		flex-flow column
+		justify-content center
+		line-height 1.5
+		padding-top 20px
+		min-height 470px
+		position relative
+		text-align center
+		z-index 2
+
+		h1
+			font-family(lato, black)
+			font-size 24px
+			margin 0
+			max-width 365px
+			text-transform uppercase
+
+			+tablet()
+				font-size 40px
+				max-width 490px
+
+		p
+			font-size 18px
+			margin 10px 0 0
+			max-width 410px
+
+			+tablet()
+				max-width 550px
+
+.domestic-violence-title
+	font-family(lato, black)
+	color $secondary-color
+	font-size 24px
+	margin 0 0 $gutter * 2
+	text-align center
+	text-decoration underline
+	text-transform uppercase
+
+	+tablet()
+		font-size 40px
+		margin 0 0 $gutter * 3
+
+.get-help
+	background linear-gradient($white 25%, $secondary-color 24%)
+	padding 100px $gutter
+	position relative
+
+	+tablet()
+		padding 150px $gutter
+
+	&:before
+		background-color $tertiary-color
+		content ''
+		display inline-block
+		height 100px
+		left 50%
+		position absolute
+		transform translateX(-50%)
+		top 0
+		width 1px
+
+	.container
+		background-color $white
+		max-width 1140px
+		padding 0 $gutter 100px
+
+		+desktop()
+			padding 0 $gutter 150px
+
+		h2
+			margin-bottom 40px
+			padding-top 200px
+			position relative
+
+			&:before
+				background url('/assets/icons/lovehands-icon.png') top center no-repeat
+				content ''
+				display inline-block
+				height 137px
+				left 50%
+				position absolute
+				top 0
+				transform translateX(-50%)
+				width 120px
+
+		p
+			line-height 1.5
+			margin 0 auto 0
+			max-width 815px
+
+			+desktop()
+				font-size 18px
+
+			span
+				font-family(lato, black)
+				color $secondary-color
+				font-size 22px
+				line-height 1.5
+				text-transform uppercase
+
+				+desktop()
+					font-size 24px
+
+			a
+				color $secondary-color

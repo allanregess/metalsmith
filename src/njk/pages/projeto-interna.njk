@@ -1,0 +1,51 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+	<div class="hero-project">
+		<img class="img-cover" src="{{ root(hero.imagePath) }}" alt="" />
+		<div class="container">
+			{% if hero.icon.length %}
+				<img src="{{ root(hero.icon) }}" alt="" />
+			{% endif %}
+			<span>{{ hero.preTitle | safe }}</span>
+			<h1>{{ hero.title | safe }}</h1>
+			{% if hero.description.length %}
+				<p>{{ hero.description | safe }}</p>
+			{% endif %}
+			{% if hero.ctaLabel.length %}
+				<a href="{{ root(hero.ctaUrl) }}" target="_blank">{{ hero.ctaLabel | safe }}</a>
+			{% endif %}
+		</div>
+	</div>
+
+	{% if projectContent.length %}
+		<div class="project-content">
+			{% for item in projectContent %}
+				<div class="container">
+					<h3>{{ item.title | safe }}</h3>
+					<p>{{ item.description | safe }}</p>
+				</div>
+			{% endfor %}
+		</div>
+	{% endif %}
+
+	<div class="project-info">
+		<div class="container">
+			{% for item in projectInfo %}
+				<div class="{{ item.class }}">
+					<h3>{{ item.title }}</h3>
+					<p>{{ item.description | safe }}</p>
+					{% if item.title == 'Contato' %}
+						<a class="contact" href="mailto:atendimento@institutomariadapenha.com.br" target="_blank">Entrar em contato</a>
+					{% endif %}
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+
+	{% include "partials/cam.njk" %}
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

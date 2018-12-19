@@ -1,0 +1,74 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+	<div class="law">
+		<div class="hero-law">
+			<div class="hero-img-bg">
+				<img src="{{ root(hero.imagePath) }}" alt="" />
+				<div class="container">
+						<h1>{{ hero.title | safe }}</h1>
+						<a class="download-btn" href="{{ root(hero.pdf) }}" target="_blank">{{hero.buttonLabel}}</a>
+				</div>
+			</div>
+			<div class="container">
+				<div class="hero-content">{{ hero.content | safe }}</div>
+			</div>
+		</div>
+
+		<div class="topics-law">
+			<div class="container">
+				{% for item in topics %}
+					<div class="topic">
+						<img class="icon" src="{{root(item.icon)}}" />
+						<div class="content">
+							<h3 class="title">{{ item.title | safe }}</h3>
+							<p class="description">{{ item.description | safe }}</p>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="reasons-law">
+			<div class="lines-bg">
+				<img src="{{root(reasons.lines)}}" />
+			</div>
+
+			<div class="container">
+				<div class="content-box">
+					<div class="container">
+						<img class="icon" src="{{root(reasons.importance.icon)}}" />
+						<h3 class="title">{{ reasons.importance.title | safe }}</h3>
+						<p class="description">{{ reasons.importance.description | safe }}</p>
+					</div>
+				</div>
+			</div>
+
+				<div class="content">
+						<h3 class="title">{{ reasons.explanation.title | safe }}</h3>
+						<p class="description">{{ reasons.explanation.description | safe }}</p>
+						<ul class="list">
+							{% for item in reasons.explanation.list %}
+								<li class="list-item">{{ item }}</li>
+							{% endfor %}
+						</ul>
+						<p class="description">Além disso, a Lei n. 13.641/2018 altera dispositivos da Lei n. 11.340/2006, tornando crime o descumprimento de medidas protetivas de urgência expedidas em razão de violência doméstica.</p>
+						<a class="download-btn" href="{{ root(hero.pdf) }}" target="_blank">{{hero.buttonLabel}}</a>
+				</div>
+		</div>
+
+		<div class="references">
+			<div class="container">
+				<h5>{{ references.title | safe }}</h5>
+				<p>{{ references.text | safe }}</p>
+			</div>
+		</div>
+
+	</div>
+
+	{% include "partials/cam.njk" %}
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

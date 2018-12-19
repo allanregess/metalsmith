@@ -1,0 +1,47 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+	<div class="law">
+		<div class="hero-law">
+			<div class="hero-img-bg">
+				<img src="{{ root(hero.imagePath) }}" alt="" />
+				<div class="container">
+						<h1>{{ hero.title | safe }}</h1>
+						<p>{{ hero.description | safe }}</p>
+						<a class="download-btn" href="{{ root(hero.pdf) }}" target="_blank">{{hero.buttonLabel}}</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="resume">
+			<div class="container">
+				<div class="content-box">
+					<div class="container">
+						<img class="icon" src="{{root(resume.icon)}}" />
+						<p class="description">{{ resume.description | safe }}</p>
+					</div>
+					<ul class="list">
+						{% for item in resume.list %}
+							<li class="list-item">
+								<span class="index">{{ item.index | safe}}</span>
+								{{ item.content | safe}}
+							</li>
+						{% endfor %}
+					</ul>
+					<h5 class="bottom-title">{{ resume.bottomContent.title | safe }}</h5>
+					<p class="bottom-description">{{ resume.bottomContent.description | safe }}</p>
+					<a class="download-btn" href="{{ root(hero.pdf) }}" target="_blank">baixar a lei maria da penha</a>
+					<br>
+					<a class="arrow-btn" href="{{ root('/lei-11340/lei-maria-da-penha-na-integra-e-comentada.html') }}">acesse a lei comentada</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	{% include "partials/cam.njk" %}
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

@@ -1,0 +1,183 @@
+.hero-project
+	display block
+	position relative
+	overflow hidden
+
+	.img-cover
+		display block
+		height auto
+		left 50%
+		min-height 101%
+		min-width 101%
+		position absolute
+		top 50%
+		transform translate(-50%, -50%)
+		width auto
+
+	.container
+		align-items center
+		box-sizing border-box
+		color $white
+		display flex
+		flex-flow column
+		line-height 1.5
+		padding-bottom 20px
+		padding-top 20px
+		min-height 470px
+		position relative
+		text-align center
+		z-index 2
+
+		img
+			margin-top $gutter * 2
+
+		span
+			font-size 18px
+			margin $gutter 0
+			position relative
+			text-transform uppercase
+
+		h1
+			font-family(lato, black)
+			font-size 22px
+			margin 0
+			max-width 365px
+			text-transform uppercase
+
+			+tablet()
+				font-size 24px
+				max-width 490px
+
+		p
+			font-size 16px
+			margin 10px 0 0
+			max-width 410px
+
+			+tablet()
+				font-size 18px
+				max-width 680px
+
+		a
+			btn(icon:mail, type:white)
+			margin 40px 0 0
+
+.project-content
+	background-color $white
+	padding 100px 0 0
+
+	+desktop()
+		padding 150px 0 0
+
+	.container
+		display flex
+		flex-flow column
+		justify-content space-between
+		max-width 1140px
+
+		+tablet()
+			flex-flow row
+			padding-bottom 60px
+
+		h3
+			font-family(lato, black)
+			color $secondary-color
+			flex-basis 33.333%
+			font-size 22px
+			line-height 1.5
+			margin-top $gutter * 2
+			padding-right $gutter
+			text-transform uppercase
+
+			+tablet()
+				font-size 24px
+				margin-top 0
+				max-width 230px
+
+		p
+			flex-basis 66.666%
+			line-height 1.6
+			margin-top 0
+
+			+tablet()
+				font-size 18px
+				max-width 795px
+
+			u
+				font-size smaller
+				text-decoration none
+				vertical-align super
+
+.project-info
+	background-color $white
+	padding-bottom 100px
+
+	+desktop()
+		padding-bottom 150px
+		padding-top 50px
+
+	.container
+		display flex
+		flex-flow column
+		justify-content space-between
+		max-width 1140px
+
+		+tablet()
+			flex-flow row wrap
+
+		> div
+			box-sizing border-box
+			flex 1 33.333%
+			margin-top 185px
+			padding-right ($gutter / 2)
+			position relative
+
+			+tablet()
+				max-width 315px
+
+			+desktop()
+				margin-top $gutter * 2
+
+			h3
+				font-family(lato, black)
+				color $secondary-color
+				font-size 22px
+				line-height 1.5
+				margin-top 0
+				text-transform uppercase
+
+				+tablet()
+					font-size 24px
+
+			p
+				line-height 1.6
+				margin-top 0
+
+				+tablet()
+					font-size 18px
+
+				a
+					font-family(roboto, bold)
+					color $black
+					text-decoration none
+
+		.contact
+			btn(icon:mail)
+
+		> .contacts,
+			.duration,
+			.public
+				&:before
+					background-repeat no-repeat
+					content ''
+					display block
+					width 100px
+					height 55px
+
+		> .public::before
+				background-image url('/src/assets/icons/public.png')
+
+		> .duration::before
+				background-image url('/src/assets/icons/duration.png')
+
+		> .contacts::before
+				background-image url('/src/assets/icons/contact-email.png')

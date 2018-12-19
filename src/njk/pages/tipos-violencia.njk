@@ -1,0 +1,81 @@
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+	<div class="hero-violence">
+		<div class="container">
+			<div class="first-block">
+				<h1>{{ hero.title | safe }}</h1>
+				<p>{{ hero.subtitle | safe }}</p>
+				<img class="bg" src="{{ root('/assets/violence/hero-bg.jpg') }}" />
+			</div>
+			<div class="bottom-text">
+				<div class="left">
+					<p>{{ hero.bottomTextLeft | safe }}</p>
+				</div>
+				<blockquote class="right">
+					<p>{{ hero.bottomTextRight | safe }}</p>
+					<cite><span></span>{{ hero.bottomTextRightAuthor | safe }}</cite>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+	<div class="list-violence">
+		{% for list in listViolence %}
+			<div class="container">
+				<div class="content">
+					<div class="icon">
+						{{ loop.index }}.<span></span>
+					</div>
+					<div class="text">
+						<h2>{{ list.title | safe }}</h2>
+						<p>{{ list.text | safe }}</p>
+					</div>
+					<div class="list">
+						<ul>
+							{% for item in list.listItems %}
+								<li>{{ item | safe }}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+	<div class="culture-violence">
+		<div class="container">
+			<div class="hero">
+				<h2>{{ cultureViolence.title | safe }}</h2>
+				<p>{{ cultureViolence.subtitle | safe }}</p>
+			</div>
+			<div class="main">
+				<img src="{{ root('/assets/violence/culture-violence-bg.png') }}">
+				<div class="text-block">
+					<div class="left">
+						<p>{{ cultureViolence.textMainLeft | safe }}</p>
+					</div>
+					<div class="right">
+						<p><span>{{ cultureViolence.textMainRight | safe }}</span>
+					</p></div>
+				</div>
+			</div>
+			<div class="bottom">
+				<p>{{ cultureViolence.textBottom | safe }}</p>
+				<cite>{{ cultureViolence.textCite | safe }}</cite>
+			</div>
+		</div>
+	</div>
+
+	<div class="references">
+		<div class="container">
+			<h5>{{ references.title | safe }}</h5>
+			<p>{{ references.text | safe }}</p>
+		</div>
+	</div>
+
+	{% include "partials/cam.njk" %}
+
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

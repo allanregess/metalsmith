@@ -1,0 +1,35 @@
+{
+	"_template": "pages/projeto-interna.njk",
+	"pageTitle": "Palestra do Instituto Maria da Penha - Instituto Maria da Penha",
+	"hero": {
+		"imagePath":"/assets/hero/palestra-instituto-hero.jpg",
+		"icon":"/assets/projects/group-icon.png",
+		"preTitle":"Palestra",
+		"title":"Palestra do Instituto <br /> Maria da Penha",
+		"ctaUrl":"mailto:atendimento@institutomariadapenha.com.br",
+		"ctaLabel":"Entrar em contato"
+	},
+	"projectContent": [
+		{
+			"title":"Conteúdo",
+			"description":"A palestra do IMP aborda temas como a violência doméstica, políticas públicas e rede de enfrentamento à violência de gênero, dados e estatísticas oficiais, tipos de violência, entre outros assuntos. <br /><br />Além disso, faz um comparativo de como essa questão era tratada pela justiça antes da aprovação da Lei n. 11.340/2006, mais conhecida como Lei Maria da Penha, que trouxe inovações significativas para prevenir, punir e erradicar a violência doméstica e familiar contra a mulher."
+		}
+	],
+	"projectInfo": [
+		{
+			"class":"public",
+			"title":"Público-Alvo",
+			"description":"Instituições públicas e privadas, ONGs, hospitais, universidades etc."
+		},
+		{
+			"class":"duration",
+			"title":"Duração",
+			"description":"1 hora"
+		},
+		{
+			"class":"contacts",
+			"title":"Contato",
+			"description":"Para contratar e obter mais informações, entre em contato pelo e-mail: <b>atendimento@institutomariadapenha.com.br</b>"
+		}
+	]
+}

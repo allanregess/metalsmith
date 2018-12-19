@@ -1,0 +1,198 @@
+// media queries
+tablet()
+	@media screen and (min-width: $breakpoints.minTablet)
+		{block}
+
+desktop()
+	@media screen and (min-width: $breakpoints.minDesktop)
+		{block}
+
+wide()
+	@media screen and (min-width: $breakpoints.minWide)
+		{block}
+
+maxWide()
+	@media screen and (min-width: $breakpoints.maxWide)
+		{block}
+
+// default button
+btn(icon=arrow, type=secondary)
+
+	$f-color = $white
+
+	if type == primary
+		$bg-color = $primary-color
+	else if type == white
+		$f-color = $secondary-color
+		$bg-color = $white
+	else
+		$bg-color = $secondary-color
+
+	font-family(roboto, medium)
+	box-sizing border-box
+	background $bg-color
+	border-radius 1000px
+	cursor pointer
+	color $f-color
+	display inline-block
+	font-size 14px
+	position relative
+	padding 15px 20px 15px 50px
+	text-transform uppercase
+	text-decoration: none
+
+	+tablet()
+		font-size 16px
+		padding 17px 40px 17px 70px
+
+	&:before
+		content ''
+		display block
+		position absolute
+		left 26px
+		top 50%
+		if not type == white
+			opacity .5
+		transition all .1s ease-in
+		transform translateY(-50%)
+
+		+tablet()
+			left 40px
+
+	if icon == download
+		&:before
+			width 16px
+			height 19px
+			background url('/assets/imp-sprite.svg#download')
+
+	if icon == copy
+		&:before
+			width 16px
+			height 19px
+			background url('/assets/imp-sprite.svg#copy')
+
+	if icon == share
+		&:before
+			width 16px
+			height 16px
+			background url('/assets/imp-sprite.svg#share-icon')
+
+	if icon == mail
+		&:before
+			width 20px
+			height 15px
+			background url('/assets/imp-sprite.svg#mail')
+
+	if icon == arrow
+		&:before
+			width 9px
+			height 9px
+			border-color white
+			border-style solid
+			border-width 0 2px 2px 0
+			transform rotate(-45deg) translateY(-50%)
+	if icon == arrow and type == white
+		&:before
+			border-color $tertiary-color
+
+	if not type == white
+		&:hover
+			background darken($bg-color , 15%)
+
+			&:before
+				opacity 1
+	else
+		&:hover
+			background darken($bg-color , 5%)
+
+			&:before
+				opacity 1
+
+// Image Cover
+imgCover()
+	display block
+	position relative
+	overflow hidden
+
+	img
+		display block
+		height auto
+		left 50%
+		min-height 101%
+		min-width 101%
+		position absolute
+		top 50%
+		transform translate(-50%, -50%)
+		width auto
+
+// Componente Spacing
+component-spacing()
+	padding 100px 0
+
+	+tablet()
+		padding 125px 0
+
+	+desktop()
+		padding 150px 0
+
+@keyframes teasing
+	0%
+		transform translate(-50%, 10px)
+	100%
+		transform translate(-50%, 0)
+
+// Arrow bottom
+arrow-bottom()
+	&:before
+		animation teasing .7s infinite
+		animation-direction alternate
+		content ''
+		position absolute
+		width 22px
+		height 50px
+		background-image url('/assets/imp-sprite.svg#arrow-teaser')
+		bottom 30px
+		left 50%
+		transform translateX(-50%)
+		z-index 2
+
+quotes()
+	position relative
+
+	&:before,
+	&:after
+		font-family(roboto)
+		color $tertiary-color
+		display inline-block
+		line-height 0.5
+		font-size 100px
+		position absolute
+
+	&:before
+		content '\201C'
+		transform translate(-40px, -10px)
+
+	&:after
+		content '\201D'
+		transform translateY(50px)
+
+bio-spacer(pseudo=before)
+	position relative
+
+	&:{pseudo}
+		background-color alpha($tertiary-color, 0.7)
+		bottom -35px
+		content ''
+		height 80px
+		left 50%
+		position absolute
+		transform translateX(-50%)
+		width 2px
+		z-index 5
+
+more-link()
+	color $dark-secondary
+	cursor pointer
+	display block
+	margin $gutter 0
+	text-decoration underline

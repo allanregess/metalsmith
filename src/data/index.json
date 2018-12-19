@@ -1,0 +1,94 @@
+{
+	"_template": "pages/home.njk",
+	"pageTitle": "Instituto Maria da Penha - IMP",
+	"hero": {
+		"title":"Enfrentar, por meio de mecanismos de <br /><b>Conscientização e empoderamento,</b> <br />a violência doméstica e familiar contra a mulher. <br /> Essa é a nossa missão.",
+		"ctaUrl":"/quem-somos.html",
+		"ctaLabel":"Conheça o Instituto",
+		"imagePath":"/assets/hero/hero-home-2.jpg"
+	},
+	"profileNav": [
+		{
+			"imagePath":"/assets/home/preciso-de-ajuda-bg.jpg",
+			"title":"Preciso <br> de ajuda",
+			"ctaUrl1":"/lei-11340/resumo-da-lei-maria-da-penha.html",
+			"ctaLabel1":"Lei Maria da Penha",
+			"ctaUrl2":"/violencia-domestica/o-que-e-violencia-domestica.html",
+			"ctaLabel2":"O que é violência doméstica"
+		},
+		{
+			"imagePath":"/assets/home/quero-entender-bg.jpg",
+			"title":"Quero <br> entender",
+			"ctaUrl1":"/violencia-domestica/ciclo-da-violencia.html",
+			"ctaLabel1":"Ciclo da violência",
+			"ctaUrl2":"/lei-11340/tipos-de-violencia.html",
+			"ctaLabel2":"Tipos de violência"
+		},
+		{
+			"imagePath":"/assets/home/quero-conhecer-bg.jpg",
+			"title":"Quero <br> conhecer",
+			"ctaUrl1":"/quem-e-maria-da-penha.html",
+			"ctaLabel1":"Quem é maria da penha",
+			"ctaUrl2":"/quem-somos.html",
+			"ctaLabel2":"O instituto"
+		}
+	],
+	"ourProjects": {
+		"title": "Projetos e serviços IMP",
+		"projects": [
+			{
+				"title":"Projetos IMP",
+				"description":"O IMP desenvolve diversos projetos que buscam gerar a reflexão e promover mudanças nas atitudes dos cidadãos no que diz respeito à violência doméstica praticada contra mulheres. As nossas ações têm o objetivo de contribuir para a aplicação integral da Lei n. 11.340/2006, bem como de atuar no desenvolvimento de melhores práticas e políticas públicas para o seu cumprimento.",
+				"ctaUrl":"/projetos.html",
+				"ctaLabel":"conheça os projetos"
+			},
+			{
+				"title":"Serviços IMP",
+				"description":"Os nossos workshops, consultorias, cursos e palestras são voltados para públicos diversificados e têm como base efetivar ações para inibir, punir e erradicar toda e qualquer violência de gênero, a fim de garantir o respeito, a dignidade, o direito e a justiça para todas as mulheres.",
+				"ctaUrl":"/servicos.html",
+				"ctaLabel":"Contrate os serviços"
+			},
+			{
+				"title":"Pesquisa",
+				"description":"Realizada pelo IMP e outros parceiros, a Pesquisa de Condições Socioeconômicas e Violência Doméstica e Familiar contra a Mulher (PCSVDF<u>Mulher</u>) traz importantes relatórios e boletins com estatísticas sobre a violência de gênero no Nordeste, contribuindo para um conhecimento mais aprofundado do tema.",
+				"ctaUrl":"/projetos.html",
+				"ctaLabel":"Acesse a pesquisa"
+			}
+		]
+	},
+	"contribute": {
+		"title":"Seja um colaborador do IMP",
+		"description":"As ações do Instituto Maria da Penha são desenvolvidas por meio de doações, financiamentos e outras parcerias. Faça também a sua doação.",
+		"highlight":"Juntos, podemos lutar por uma sociedade mais justa e livre de violência contra as mulheres.",
+		"bankAccount": {
+			"title":"transferência ou depósito bancário",
+			"accountName":"Instituto Maria da Penha",
+			"cnpj":"11.161.826/0001-59",
+			"banco": "Caixa Econômica Federal - 104",
+			"agencia":"1922-4",
+			"operacao":"003",
+			"cc":"821-4"
+		},
+		"otherMethods": {
+			"title":"com cartão ou paypal",
+			"paymenttLogos": [
+				{
+					"logo":"/assets/icons/logo-visa.png"
+				},
+				{
+					"logo":"/assets/icons/logo-paypal.png"
+				},
+				{
+					"logo":"/assets/icons/logo-mastercard.png"
+				},
+				{
+					"logo":"/assets/icons/logo-american-express.png"
+				}
+			]
+		},
+		"donateCta": {
+			"url":"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9DBY93J39JAS6&source=url",
+			"label":"Doar"
+		}
+	}
+}
